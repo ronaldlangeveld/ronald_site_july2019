@@ -29,46 +29,46 @@ function SEO({ description, lang, meta, title }) {
 
   return (
     <Helmet
-                        title={title}
-                        meta={[
-                            { charSet: 'utf-8' },
-                            { httpEquiv: 'Content-Language', content: 'en-us' },
-                            { httpEquiv: 'X-UA-Compatible', content: 'IE=edge,chrome=1' },
-                            { httpEquiv: 'cleartype', content: 'on' },
-                            {
-                                name: 'viewport',
-                                content: 'width=device-width,initial-scale=1'
-                            },
-                            { name: 'description', content: description },
-                            { name: 'google', value: 'notranslate' },
-                            { name: 'HandheldFriendly', content: 'true' },
-                            { name: 'apple-mobile-web-app-title', content: title },
-                            { name: 'apple-mobile-web-app-capable', content: 'yes' },
-                            {
-                                name: 'apple-mobile-web-app-status-bar-style',
-                                content: 'white'
-                            },
-                            { name: 'msapplication-TileColor', content: '#da532c' },
-                            { name: 'theme-color', content: '#ffffff' },
-
-                            { name: 'twitter:card', content: 'summary_large_image' },
-                            { name: 'twitter:site', content: '@ronaldlangeveld' },
-                            { name: 'twitter:creator', content: '@ronaldlangeveldl' },
-                            { name: 'twitter:title', content: title },
-                            { name: 'twitter:description', content: description },
-                            { name: 'twitter:url', content: 'https://www.ronaldlangeveld.com' },
-                            { property: 'og:title', content: title },
-                            { property: 'og:url', content: 'https://www.ronaldlangeveld.com' },
-                            { property: 'og:description', content: description },
-                            { property: 'og:image:width', content: 1200 },
-                            { property: 'og:image:height', content: 628 },
-                            { property: 'og:image:alt', content: title },
-                            { property: 'og:site_name', content: title },
-                            { property: 'og:type', content: 'website' }
-                        ]}
-                    >
-                        <html lang="en" />
-                    </Helmet>
+      htmlAttributes={{
+        lang,
+      }}
+      title={title}
+      titleTemplate={`%s | ${site.siteMetadata.title}`}
+      meta={[
+        {
+          name: `description`,
+          content: metaDescription,
+        },
+        {
+          property: `og:title`,
+          content: title,
+        },
+        {
+          property: `og:description`,
+          content: metaDescription,
+        },
+        {
+          property: `og:type`,
+          content: `website`,
+        },
+        {
+          name: `twitter:card`,
+          content: `summary`,
+        },
+        {
+          name: `twitter:creator`,
+          content: site.siteMetadata.author,
+        },
+        {
+          name: `twitter:title`,
+          content: title,
+        },
+        {
+          name: `twitter:description`,
+          content: metaDescription,
+        },
+      ].concat(meta)}
+    />
   )
 }
 

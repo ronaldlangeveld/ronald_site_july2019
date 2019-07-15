@@ -12,21 +12,21 @@ export default () => (
     query {
         fiix: file(relativePath: {eq: "fiix.png"}){
         childImageSharp{
-          fluid(maxWidth: 800){
+          fluid(maxWidth: 800, quality: 50){
             ...GatsbyImageSharpFluid
           }
         }
       }
       hamster: file(relativePath: {eq: "hamster.png"}){
         childImageSharp{
-          fluid(maxWidth: 800){
+          fluid(maxWidth: 800, quality: 50){
             ...GatsbyImageSharpFluid
           }
         }
       }
       qq: file(relativePath: {eq: "qq.png"}){
         childImageSharp{
-          fluid(maxWidth: 800){
+          fluid(maxWidth: 800, quality: 50){
             ...GatsbyImageSharpFluid
           }
         }
@@ -54,7 +54,7 @@ export default () => (
                                             <div className="media">
 
                                                 <div className="media-content">
-                                                    <a href="https://www.hamster.capital/?ref=ronaldlangeveld.com" target="_blank" className="title is-4">Hamster Capital</a>
+                                                    <a rel="noopener noreferrer" href="https://www.hamster.capital/?ref=ronaldlangeveld.com" target="_blank" className="title is-4">Hamster Capital</a>
 
                                                 </div>
                                             </div>
@@ -80,7 +80,7 @@ export default () => (
                                             <div className="media">
 
                                                 <div className="media-content">
-                                                    <a target="_blank" href="https://www.fiixsoftware.co.za/?ref=ronaldlangeveld.com" className="title is-4">Fiix South Africa</a>
+                                                    <a rel="noopener noreferrer" target="_blank" href="https://www.fiixsoftware.co.za/?ref=ronaldlangeveld.com" className="title is-4">Fiix South Africa</a>
 
                                                 </div>
                                             </div>
@@ -105,7 +105,7 @@ export default () => (
                                             <div className="media">
 
                                                 <div className="media-content">
-                                                    <a href="https://www.linkedin.com/pulse/how-many-people-were-here-james-coetzee/?published=t" target="_blank" className="title is-4">Analytical Dashboard</a>
+                                                    <a rel="noopener noreferrer" href="https://www.linkedin.com/pulse/how-many-people-were-here-james-coetzee/?published=t" target="_blank" className="title is-4">Analytical Dashboard</a>
 
                                                 </div>
                                             </div>
