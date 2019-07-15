@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC:300,400,700&display=swap');
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.responsiveBg {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+section .overlay {
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+       background-color:#10010f;
+    opacity: 0.5;
+    height: 100%;
+}
+
+
+header.masthead {
+    background: no-repeat center center;
+    background-color: #868e96;
+    /* background-attachment: scroll; */
+    position: relative;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  header.masthead .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #10010f;
+    opacity: 0.5;
+    background-attachment: fixed;
+  }

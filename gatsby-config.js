@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Ronald Langeveld`,
+    siteUrl: `https://www.ronaldlangeveld.com`,
+    description: `Indie Software Developer, Ronald Langeveld, working on development projects for local and international clients. Living in South Africa and travels around Asia whilst working remotely.`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -24,7 +24,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+       // This path is relative to the root of the site.   icon: `src/images/gatsby-icon.png`,
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
