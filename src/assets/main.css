@@ -22,7 +22,7 @@ section .overlay {
 }
 
 
-header.masthead {
+.masthead {
     background: no-repeat center center;
     background-color: #868e96;
     /* background-attachment: scroll; */
@@ -34,7 +34,7 @@ header.masthead {
     background-attachment: fixed;
   }
   
-  header.masthead .overlay {
+.masthead .overlay {
     position: absolute;
     top: 0;
     left: 0;
