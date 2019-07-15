@@ -76,6 +76,5 @@ const ProfilePic = {
   display: "block",
   // marginLeft: "auto",
   // marginRight: "auto"
-
 }
 
