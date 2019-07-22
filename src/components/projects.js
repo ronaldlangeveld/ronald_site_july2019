@@ -35,11 +35,11 @@ export default () => (
 `}
         render={data => (
             <div>
-                <section className="hero is-transparent">
+                <section className="hero is-light">
                     <div className="hero-body">
                         <div className="container">
 
-                            <h1 id="projects" className="title has-text-weight-light has-text-white">Recent Projects</h1>
+                            <h1 id="projects" className="title has-text-weight-light">Recent Projects</h1>
 
                             <div className="columns is-multiline is-centered">
 
@@ -63,8 +63,8 @@ export default () => (
                                                 <p>
                                                     Full Stack Web Application for an Amsterdam based Start-up, Hamster Capital.
                                                     Tasks includes Developing the MVP and database design. Written in Python 3, using the Django Web Framework.
-                                                    Features includes automation of data matching and comparing as well as automated periodical emails.
-    </p>
+                                                    Features includes automation of data matching and comparing as well as automated periodical emails.</p>
+                                                    {/* <p><span class="tag is-primary">Python</span> <span class="tag is-primary">Django</span> <span class="tag is-primary">jQuery</span> <span class="tag is-primary">Python</span></p> */}
                                             </div>
                                         </div>
                                     </div>

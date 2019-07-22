@@ -26,12 +26,13 @@ section .overlay {
     background: no-repeat center center;
     background-color: #868e96;
     /* background-attachment: scroll; */
-    position: relative;
+    position: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-attachment: fixed;
+    height: 100%;
+
   }
   
 .masthead .overlay {
@@ -42,5 +43,19 @@ section .overlay {
     width: 100%;
     background-color: #10010f;
     opacity: 0.5;
-    background-attachment: fixed;
+
+  }
+/* 
+  .borderLeft {
+    border-left: 1px solid whitesmoke ;
+    padding-left: 20px;
+
+  } */
+
+  .hr_line {
+    background-color: #cccccc;
+    border: none;
+    display: block;
+    height: 1px;
+    margin: 1.5rem 0;
   }

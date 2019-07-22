@@ -23,16 +23,8 @@ const IndexPage = () => (
 `} render={data => (
   <Layout>
     <SEO title="Ronald Langeveld | Full Stack Web Developer and Bootstrapper" />
-    <BackgroundImage Tag="section"
-                           className={`masthead`}
-                           fluid={data.desktop.childImageSharp.fluid}
-                           backgroundColor={`#040e18`}>
-    <div className="overlay"></div>
-      <div className="overlay"></div>
-      <div className="overlay"></div>
     <Header />
     <Projects />
-    </BackgroundImage>
   </Layout>
 )}
 />
