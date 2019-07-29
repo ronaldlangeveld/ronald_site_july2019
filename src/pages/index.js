@@ -24,7 +24,6 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Ronald Langeveld | Full Stack Web Developer and Bootstrapper" />
     <Header />
-    <Projects />
   </Layout>
 )}
 />

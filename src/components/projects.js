@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import Img from 'gatsby-image';
 import { StaticQuery, graphql } from "gatsby"
 import { Link } from "gatsby"
-import Navbar from './navbar'
 
 
 
@@ -64,7 +63,7 @@ export default () => (
                                                     Full Stack Web Application for an Amsterdam based Start-up, Hamster Capital.
                                                     Tasks includes Developing the MVP and database design. Written in Python 3, using the Django Web Framework.
                                                     Features includes automation of data matching and comparing as well as automated periodical emails.</p>
-                                                    {/* <p><span class="tag is-primary">Python</span> <span class="tag is-primary">Django</span> <span class="tag is-primary">jQuery</span> <span class="tag is-primary">Python</span></p> */}
+                                                {/* <p><span class="tag is-primary">Python</span> <span class="tag is-primary">Django</span> <span class="tag is-primary">jQuery</span> <span class="tag is-primary">Python</span></p> */}
                                             </div>
                                         </div>
                                     </div>
