@@ -12,17 +12,17 @@ const IndexPage = () => (
   <StaticQuery
   query={graphql`
   query {
-    desktop: file(relativePath: { eq: "bg.JPG" }) {
-      childImageSharp {
-        fluid(quality: 90, maxWidth: 4160) {
-          ...GatsbyImageSharpFluid_withWebp
+    cardImg: file(relativePath: {eq: "bigimg2.jpg"}){
+      childImageSharp{
+        fluid(maxWidth: 800, quality: 50){
+          ...GatsbyImageSharpFluid
         }
       }
     }
   }
 `} render={data => (
   <Layout>
-    <SEO title="Ronald Langeveld | Full Stack Web Developer and Bootstrapper" />
+    <SEO title="Ronald Langeveld | Full Stack Web Developer and Bootstrapper" image={data.cardImg.childImageSharp.fluid.src} />
     <Header />
   </Layout>
 )}
