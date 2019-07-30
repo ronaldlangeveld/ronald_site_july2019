@@ -58,7 +58,7 @@ function SEO({ description, lang, meta, title, image }) {
         },
         {
           property: `og:image`,
-          content: cardimage,
+          content: url + cardimage,
         },
         {
           property: `og:description`,
@@ -70,7 +70,7 @@ function SEO({ description, lang, meta, title, image }) {
         },
         {
           property: `twitter:image`,
-          content: cardimage,
+          content: url + cardimage,
         },
         {
           name: `twitter:card`,
