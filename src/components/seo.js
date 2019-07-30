@@ -4,7 +4,7 @@
  *
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
-
+ 
 import React from "react"
 import PropTypes from "prop-types"
 import Helmet from "react-helmet"
@@ -16,8 +16,11 @@ function SEO({ description, lang, meta, title }) {
       query {
         site {
           siteMetadata {
-            title
             description
+            image
+            siteUrl
+            title
+            twitterUsername
 
           }
         }
@@ -26,14 +29,18 @@ function SEO({ description, lang, meta, title }) {
   )
 
   const metaDescription = description || site.siteMetadata.description
+  const url=site.siteMetadata.siteUrl
+  const image = site.siteMetadata.image
 
   return (
     <Helmet
+
       htmlAttributes={{
         lang,
       }}
       title={title}
       titleTemplate={`%s | ${site.siteMetadata.title}`}
+      
       meta={[
         {
           name: `description`,
@@ -42,6 +49,10 @@ function SEO({ description, lang, meta, title }) {
         {
           property: `og:title`,
           content: title,
+        },
+        {
+          property: `og:image`,
+          content: image,
         },
         {
           property: `og:description`,
@@ -53,7 +64,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           name: `twitter:card`,
-          content: `summary`,
+          content: image,
         },
         {
           name: `twitter:creator`,

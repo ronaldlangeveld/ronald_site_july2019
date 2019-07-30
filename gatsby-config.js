@@ -2,7 +2,9 @@ module.exports = {
   siteMetadata: {
     title: `Ronald Langeveld`,
     siteUrl: `https://www.ronaldlangeveld.com`,
-    description: `Indie Software Developer, Ronald Langeveld, working on development projects for local and international clients. Living in South Africa and travels around Asia whilst working remotely.`,
+    description: `Indie Software Developer, Ronald Langeveld, working on development projects for local and international clients. From South Africa and travels around Asia whilst working remotely.`,
+    image: `src/images/bigimg2.jpg`,
+    twitterUsername: `@ronaldlangeveld`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -38,6 +40,6 @@ module.exports = {
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
   ],
 }

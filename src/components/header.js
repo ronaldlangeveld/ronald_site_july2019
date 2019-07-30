@@ -34,24 +34,24 @@ export default () => (
                   <hr />
 
 
-                  <nav class="level is-mobile">
-                    <div class="level-item has-text-centered">
+                  <nav className="level is-mobile">
+                    <div className="level-item has-text-centered">
                       <div>
                         <Link to="/blog" className="has-text-dark">Blog</Link>
                       </div>
                     </div>
-                    <div class="level-item has-text-centered">
+                    <div className="level-item has-text-centered">
                       <div>
                         <Link to='/projects' className="has-text-dark">Projects</Link>
                       </div>
                     </div>
 
-                    <div class="level-item has-text-centered">
+                    <div className="level-item has-text-centered">
                       <div>
                         <Link to='/contact' className="has-text-dark" >Around the web</Link>
                       </div>
                     </div>
-                    <div class="level-item has-text-centered">
+                    <div className="level-item has-text-centered">
                       <div>
                         <a href="https://twitter.com/ronaldlangeveld" target="_blank" className="has-text-dark">Twitter</a>
                       </div>
