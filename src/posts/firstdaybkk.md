@@ -1,6 +1,6 @@
 ---
 
-path: "/few=days-in-bangkok"
+path: "/first-days-in-bangkok"
 date: "2018-11-04"
 title: "First few days in Bangkok"
 

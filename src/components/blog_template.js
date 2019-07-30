@@ -1,5 +1,5 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 import SEO from "../components/seo"
 import Img from 'gatsby-image';
 
@@ -24,6 +24,9 @@ export default function Template({
                 dangerouslySetInnerHTML={{ __html: html }}
               />
 
+              <br />
+              <Link className="is-size-7 has-text-weight-light has-text-black" to="/blog">← Back to article list</Link>
+
               <hr />
 
               <div>
@@ -35,7 +38,9 @@ export default function Template({
                 <p className="has-text-weight-light is-size-6 has-text-centered">Freelance Full-Stack Software Developer working on development projects for local and international clients. 
                 Originally from South Africa and travels around Asia whilst working remotely. 
                 <hr />
-                Need Web Development or Tech Consultation to kick off for your next big thing? I'm available for Hire
+                Need Web Development or Tech Consultation to kick off for your next big thing? I'm available for Hire.
+                <br />
+                <a href="https://twitter.com/ronaldlangeveld" target="_blank">Twitter</a> &nbsp; <a href="mailto:hi@ronaldlangeveld.com">Email</a>
                 
                 </p>
               </div>

@@ -27,7 +27,7 @@ export default () => (
               <div className="columns">
                 <div className="column is-6">
                   <div className="borderLeft">
-                    <p className="is-size-4 has-text-weight-light ">Hey,</p>
+                    <p className="is-size-4 has-text-weight-light ">Hi,</p>
                     <h1 className="title is-3 has-text-weight-light ">
                       I'm Ronald
           </h1>
@@ -51,15 +51,16 @@ export default () => (
                     </nav>
 
                     <hr className="hr_line" />
+
                     <p className="is-size-5 has-text-weight-light ">
-                      Need Web Development or Tech Consultation to kick off for your next big thing?
+                      Need Web Development or Tech Consultation to kick off for your next big thing? <u><Link to="/contact" className="has-text-dark">Let's get in touch.</Link></u>
           </p>
 
-
+          <br />
 
                     <p className="is-size-6 has-text-weight-light ">
-                      I'm available for remote projects. 
-                      <u><Link to="/projects" className="is-size-6 has-text-dark">See some of my work</Link> </u>
+                 
+                       <u><Link to="/projects" className="is-size-6 has-text-dark">See some of my work</Link> </u>
           </p>
                     <br />
 
