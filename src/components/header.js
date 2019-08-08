@@ -1,10 +1,11 @@
-import React, { Component } from 'react'
+import React, { Component, useState } from 'react'
 import Img from 'gatsby-image';
 import { StaticQuery, graphql } from "gatsby"
 import { Link } from "gatsby"
 
 
 export default () => (
+
   <StaticQuery
     query={graphql`
   query {
@@ -26,37 +27,13 @@ export default () => (
               <div className="columns is-centered">
                 <div className="column is-6">
                   <br />
-                  <h1 className="title has-text-weight-light has-text-centered">Hi, I'm Ronald</h1>
+                <Img style={ProfilePic} fluid={data.main.childImageSharp.fluid} />
+                  <br />
+                  <h1 className="title is-3 has-text-weight-light has-text-centered">Hi, I'm Ronald</h1>
+                  <br />
+        
 
-
-
-
-                  <hr />
-
-
-                  <nav className="level is-mobile">
-                    <div className="level-item has-text-centered">
-                      <div>
-                        <Link to="/blog" className="has-text-dark">Blog</Link>
-                      </div>
-                    </div>
-                    <div className="level-item has-text-centered">
-                      <div>
-                        <Link to='/projects' className="has-text-dark">Projects</Link>
-                      </div>
-                    </div>
-
-                    <div className="level-item has-text-centered">
-                      <div>
-                        <Link to='/contact' className="has-text-dark" >Around the web</Link>
-                      </div>
-                    </div>
-                    <div className="level-item has-text-centered">
-                      <div>
-                        <a href="https://twitter.com/ronaldlangeveld" target="_blank" className="has-text-dark">Twitter</a>
-                      </div>
-                    </div>
-                  </nav>
+              
 
                 </div>
               </div>
@@ -66,15 +43,48 @@ export default () => (
             <div className="container">
               <div className="columns is-centered">
                 <div className="column is-6">
-                <Img fluid={data.main.childImageSharp.fluid} />
-                <br />
-                  <div className="content">
+    
+         
+      <div className="box">
+      
+
+      <div className="content has-text-justified has-text-weight-light">
                     <p>I’m a freelance software engineer, with 3 years experience using <strong>Python 3</strong> and the <strong>Django web framework</strong>. I keep my applications running smoothly and automate tasks by deploying them onto <strong>Linux</strong> servers.</p>
                     <p>More recently I’m developing web applications with <strong>NodeJS</strong> and <strong>ReactJS</strong> as well as <strong>React Native</strong> to build iOS and Android apps.</p>
-                    <p><strong>Need Web Development</strong> or <strong>Tech Consultation</strong> to kick off for your next big thing? <br /> <Link to='/contact'>Let’s get in touch.</Link></p>
+                    <p><strong>Need Web Development</strong> or <strong>Tech Consultation</strong> to kick off for your next big thing? <br />
+                    <Link to="/work" className="has-text-dark"><u>Let's get in touch</u></Link>
+                    </p>
+
+               
 
 
                   </div>
+                  <hr />
+                  <nav className="level is-mobile">
+                    <div className="level-item">
+                      <div>
+                        <Link to="/blog" className="has-text-dark"><u>Blog</u></Link>
+                      </div>
+                    </div>
+                    <div className="level-item">
+                      <div>
+                        <Link to='/projects' className="has-text-dark"><u>Projects</u></Link>
+                      </div>
+                    </div>
+                    <div className="level-item">
+                      <div>
+                        <Link to='/work' className="has-text-dark" ><u>Work with me</u></Link>
+                      </div>
+                    </div>
+
+                    <div className="level-item">
+                      <div>
+                        <Link to='/contact' className="has-text-dark" ><u>Contact me</u></Link>
+                      </div>
+                    </div>
+                  </nav> 
+      </div>
+                 
                 </div>
 
               </div>
@@ -84,6 +94,8 @@ export default () => (
 
         </section>
 
+        
+
       </div>
     )} />)
 
@@ -92,8 +104,8 @@ const ProfilePic = {
   width: "120px",
   height: "120px",
   display: "block",
-  // marginLeft: "auto",
-  // marginRight: "auto"
+  marginLeft: "auto",
+  marginRight: "auto"
 }
 
 const littleRight = {
