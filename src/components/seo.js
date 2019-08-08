@@ -31,7 +31,7 @@ function SEO({ description, lang, meta, title, image }) {
   const metaDescription = description || site.siteMetadata.description;
   const url=site.siteMetadata.siteUrl;
 
-  const cardimage = image || site.siteMetadata.image;
+  const cardimage = image || site.siteMetadata.image.src;
   
 
   return (
