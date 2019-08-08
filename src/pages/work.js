@@ -6,7 +6,7 @@ import { Link } from "gatsby"
 
 const Work = () => (
     <Layout>
-        <SEO title="Work Me" />
+        <SEO title="Work with me" />
         <section className="hero">
             <div className="hero-header">
                 <div className="container">
