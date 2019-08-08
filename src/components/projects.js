@@ -9,21 +9,42 @@ export default () => (
     <StaticQuery
         query={graphql`
     query {
-        fiix: file(relativePath: {eq: "fiix.png"}){
+        fiix: file(relativePath: {eq: "fiix.jpg"}){
         childImageSharp{
           fluid(maxWidth: 800, quality: 50){
             ...GatsbyImageSharpFluid
           }
         }
       }
-      hamster: file(relativePath: {eq: "hamster.png"}){
+      hamster: file(relativePath: {eq: "hamster.jpg"}){
         childImageSharp{
           fluid(maxWidth: 800, quality: 50){
             ...GatsbyImageSharpFluid
           }
         }
       }
-      qq: file(relativePath: {eq: "qq.png"}){
+      qq: file(relativePath: {eq: "qq.jpg"}){
+        childImageSharp{
+          fluid(maxWidth: 800, quality: 50){
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      ssp: file(relativePath: {eq: "ssp.jpg"}){
+        childImageSharp{
+          fluid(maxWidth: 800, quality: 50){
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      rhum: file(relativePath: {eq: "rhum.jpg"}){
+        childImageSharp{
+          fluid(maxWidth: 800, quality: 50){
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      quarter: file(relativePath: {eq: "quarter.jpg"}){
         childImageSharp{
           fluid(maxWidth: 800, quality: 50){
             ...GatsbyImageSharpFluid
@@ -135,6 +156,86 @@ export default () => (
         </div>
     </div>
 </div>
+<div className="column is-12">
+    <div className="card">
+        <div className="card-image">
+            <figure className="image">
+                <Img style={imgSize} fluid={data.ssp.childImageSharp.fluid} />
+            </figure>
+        </div>
+        <div style={boxSize} className="card-content">
+            <div className="media">
+
+                <div className="media-content">
+                    <a rel="noopener noreferrer" href="http://ronaldlangeveld.gitlab.io/SSP/" target="_blank" className="title is-4">Sports Performance</a>
+
+                </div>
+            </div>
+
+            <div className="content">
+                <p>
+                Front End development for a local client who needed a Sketch Design converted to a usable landing page as well as making it mobile responsive. The client can now pass the source code on to his backend developer to put it on their server.
+</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div className="column is-12">
+    <div className="card">
+        <div className="card-image">
+            <figure className="image">
+                <Img style={imgSize} fluid={data.quarter.childImageSharp.fluid} />
+            </figure>
+        </div>
+        <div style={boxSize} className="card-content">
+            <div className="media">
+
+                <div className="media-content">
+                    <a rel="noopener noreferrer" href="https://25sbh.com/" target="_blank" className="title is-4">25 Quarter</a>
+
+                </div>
+            </div>
+
+            <div className="content">
+                <p>
+
+                I was contracted from the beautiful St Barths to build a landing page for their world class cocktail bar. The website lives on my hosting platform.
+</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div className="column is-12">
+    <div className="card">
+        <div className="card-image">
+            <figure className="image">
+                <Img style={imgSize} fluid={data.rhum.childImageSharp.fluid} />
+            </figure>
+        </div>
+        <div style={boxSize} className="card-content">
+            <div className="media">
+
+                <div className="media-content">
+                    <a rel="noopener noreferrer" href="https://rhumroom.com/" target="_blank" className="title is-4">Rhumroom</a>
+
+                </div>
+            </div>
+
+            <div className="content">
+                <p>
+
+                Rhumroom is a semi-secret bar located in the Caribbean. I built the landing page in Bulma to keep it ultra responive amongst all devices. This site is due to be connected to a database to showcase their customers all their Rum's in the near future</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
 </div>
                                 </div>
 
