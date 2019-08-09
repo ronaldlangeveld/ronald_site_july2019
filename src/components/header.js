@@ -53,7 +53,7 @@ export default () => (
 
                     </div>
                     <hr />
-                    <nav className="level is-mobile">
+                    <nav className="level">
                       <div className="level-item">
                         <div>
                           <Link to="/blog" className="has-text-dark"><u>Blog</u></Link>
