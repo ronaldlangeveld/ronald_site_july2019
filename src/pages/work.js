@@ -42,6 +42,12 @@ const Work = () => (
                                 <p>If you would like more information, send me an email at <a href="mailto:hi@ronaldlangeveld.com">hi@ronaldlangeveld.com</a></p>
 
                             </div>
+                            <p><a href="mailto:hi@ronaldlangeveld.com">Email</a></p>
+                            <p><a href="https://twitter.com/ronaldlangeveld" target="_blank">Twitter</a></p>
+                            <p><a href="https://t.me/ronaldl93" target="_blank">Telegram</a></p>
+                            <p><a href="https://github.com/ronaldlangeveld" target="_blank">Github</a></p>
+                            <p><a href="https://www.linkedin.com/in/ronald-langeveld-0889a623/" target="_blank">LinkedIn</a></p>
+                  
                         </div>
                     </div>
                 </div>
