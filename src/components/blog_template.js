@@ -2,6 +2,7 @@ import React from "react"
 import { graphql, Link } from "gatsby"
 import SEO from "../components/seo"
 import Img from 'gatsby-image';
+import 'bulma/css/bulma.min.css'
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
