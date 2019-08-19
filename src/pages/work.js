@@ -14,7 +14,7 @@ const Work = () => (
                         <div className="column is-6 marginHeaders">
                             <br />
                             <h1 className="title is-1 has-text-weight-light">Work with me</h1>
-                            <h2 className="subtitle is-size-2 has-text-weight-light">Over the last 3 years I've helped build websites for businesses across many different industries.</h2>
+                            <h2 className="subtitle is-size-3 has-text-weight-light">Over the last 3 years I've helped build websites for businesses across many different industries.</h2>
 
                             <Link className="is-size-7 has-text-weight-light has-text-black" to="/">← Back home</Link>
                             <hr />
