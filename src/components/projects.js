@@ -59,7 +59,7 @@ export default () => (
                 <div className="hero-header">
                 <div className="container">
                     <div className="columns is-centered">
-                        <div className="column is-6">
+                        <div className="column is-6 marginHeaders">
                             <br />
                             <h1 className="title has-text-weight-light">Projects</h1>
                             <h2 className="subtitle is-size-6 has-text-weight-light">Some projects I've worked on over the last few months</h2>

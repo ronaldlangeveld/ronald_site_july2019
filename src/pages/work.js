@@ -11,7 +11,7 @@ const Work = () => (
             <div className="hero-header">
                 <div className="container">
                     <div className="columns is-centered">
-                        <div className="column is-6">
+                        <div className="column is-6 marginHeaders">
                             <br />
                             <h1 className="title has-text-weight-light">Work with me</h1>
                             <h2 className="subtitle is-size-6 has-text-weight-light">Over the last 3 years I've helped build websites for businesses across many different industries.</h2>

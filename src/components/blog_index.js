@@ -9,7 +9,7 @@ const PostIndex = ({ children }) => {
             <div className="hero-header">
                 <div className="container">
                     <div className="columns is-centered">
-                        <div className="column is-6">
+                        <div className="column is-6 marginHeaders">
                             <br />
                             <h1 className="title has-text-weight-light">Blog</h1>
                             <h2 className="subtitle is-size-6 has-text-weight-light">I'm not the most consistent blogger, but I <i>sometimes</i> write about stuff that interest me. </h2>

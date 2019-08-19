@@ -65,3 +65,9 @@ section .overlay {
   .fixed {
     position: fixed;
   }
+
+
+  .marginHeaders {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
