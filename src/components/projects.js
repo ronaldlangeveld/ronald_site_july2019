@@ -61,10 +61,10 @@ export default () => (
                     <div className="columns is-centered">
                         <div className="column is-6 marginHeaders">
                             <br />
-                            <h1 className="title has-text-weight-light">Projects</h1>
-                            <h2 className="subtitle is-size-6 has-text-weight-light">Some projects I've worked on over the last few months</h2>
+                            <h1 className="title is-1 has-text-weight-light">Projects</h1>
+                            <h2 className="subtitle is-size-3 has-text-weight-light">Some projects I've worked on over the last few months</h2>
 
-                            <Link className="is-size-7 has-text-weight-light has-text-black" to="/">← Back home</Link>
+                            <Link className="is-size-6 has-text-weight-light has-text-black" to="/">← Back home</Link>
                             <hr />
                         </div>
                     </div>
@@ -174,7 +174,7 @@ export default () => (
 
             <div className="content">
                 <p>
-                Front End development for a local client who needed a Sketch Design converted to a usable landing page as well as making it mobile responsive. The client can now pass the source code on to his backend developer to put it on their server.
+                Front End development for a local client who needed a Sketch Design developed into a usable landing page as well as making it mobile responsive. The client can now pass the source code on to his backend developer to put it on their server.
 </p>
             </div>
         </div>
@@ -228,7 +228,7 @@ export default () => (
             <div className="content">
                 <p>
 
-                Rhumroom is a semi-secret bar located in the Caribbean. I built the landing page in Bulma to keep it ultra responive amongst all devices. This site is due to be connected to a database to showcase their customers all their Rum's in the near future</p>
+                Rhumroom is a semi-secret bar located in the Caribbean. I built the landing page in Bulma to keep it responsive amongst all devices. This site is due to be connected to a database to showcase their customers all their Rum's in the near future</p>
             </div>
         </div>
     </div>

@@ -17,11 +17,11 @@ export default function Template({
           <div className="columns is-centered">
 
             <div className="column is-5">
-              <h1 className="title has-text-weight-light">{frontmatter.title}</h1>
-              <h2 className="has-text-weight-light subtitle is-7">{frontmatter.date}</h2>
+              <h1 className="title is-3 has-text-weight-light">{frontmatter.title}</h1>
+              <h2 className="has-text-weight-light subtitle is-6">{frontmatter.date}</h2>
               <hr />
               <div
-                className="content"
+                className="content is-medium"
                 dangerouslySetInnerHTML={{ __html: html }}
               />
 
@@ -77,7 +77,7 @@ export const pageQuery = graphql`
         title
       }
     }
-    profilepic: file(relativePath: { eq: "profilepic2.jpg" }) {
+    profilepic: file(relativePath: { eq: "bigimg2.jpg" }) {
       childImageSharp {
         fluid(quality: 90) {
           ...GatsbyImageSharpFluid_withWebp

@@ -41,9 +41,7 @@ export default () => (
 
                   <div>
   
-                  <Img style={ProfilePic} fluid={data.main.childImageSharp.fluid} />
-                  <br />
-                  <h1 className="title is-1 has-text-weight-light has-text-centered">Hi, I'm Ronald</h1>
+                  <h1 className="title is-1 has-text-weight-light">Hi, I'm Ronald</h1>
             
                     <div className="content is-large has-text-justified has-text-weight-light">
                       <p>I’m a freelance software engineer, with 3 years experience using <strong>Python 3</strong> and the <strong>Django web framework</strong>. I keep my applications running smoothly and automate tasks by deploying them onto <strong>Linux</strong> servers.</p>
@@ -55,6 +53,7 @@ export default () => (
                     </div>
 
                   </div>
+                         
 
                 </div>
 
