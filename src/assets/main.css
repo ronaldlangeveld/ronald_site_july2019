@@ -2,7 +2,12 @@
 body {
     font-family: 'Noto Sans TC', sans-serif;
 }
-
+html, body {
+  overflow-x: hidden;
+}
+body {
+  position: relative
+}
 .responsiveBg {
     height: 100%;
     background-position: center;
