@@ -1,9 +1,10 @@
 import React from "react"
 import Layout from "../components/layout";
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 import PostIndex from "../components/blog_index";
 import PostLink from "../components/blog_list";
 import SEO from "../components/seo";
+
 
 const IndexPage = ({
   data: {

@@ -14,20 +14,15 @@ function ChatForm(props) {
     const [sending, setSending] = useState(false)
     const [sendSucc, setSucc] = useState(false)
 
-    const ChatURL = "https://api.telegram.org/bot557938277:AAH-sQrStAtvtcjDHtLPx6Or0DPRH66nnpA/sendMessage";
+    const ChatURL = "https://api.ronaldlangeveld.com/sendMsg";
 
     const sendMsg = () => {
-
-      const htmlText = `<b>` + chatBoxEmail + `</b> 
-      <i>` + chatBoxMsg + `</i>`;
 
 
       
       let msg = {
-        "chat_id": 430856496,
-          "text": htmlText,
-          "parse_mode": "HTML"
-
+       "email":chatBoxEmail,
+       "msg": chatBoxMsg
 }
   setSending(true)
 
