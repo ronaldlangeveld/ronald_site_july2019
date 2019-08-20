@@ -20,11 +20,11 @@ export default function Template({
           <div className="columns is-centered">
 
             <div className="column is-7">
-              <h1 className="title is-3 has-text-weight-light">{frontmatter.title}</h1>
+              <h1 className="title is-3 has-text-weight-light is-size-4-mobile">{frontmatter.title}</h1>
               <h2 className="has-text-weight-light subtitle is-6">{frontmatter.date}</h2>
               <hr />
               <div
-                className="content is-medium"
+                className="content is-medium is-size-6-mobile"
                 dangerouslySetInnerHTML={{ __html: html }}
               />
 

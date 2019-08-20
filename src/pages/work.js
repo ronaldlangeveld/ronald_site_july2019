@@ -17,8 +17,8 @@ const Work = () => (
                     <div className="columns is-centered">
                         <div className="column is-6 marginHeaders">
                             <br />
-                            <h1 className="title is-1 has-text-weight-light">Work with me</h1>
-                            <h2 className="subtitle is-size-3 has-text-weight-light">Over the last 3 years I've helped build websites for businesses across many different industries.</h2>
+                            <h1 className="title is-1 has-text-weight-light is-size-4-mobile">Work with me</h1>
+                            <h2 className="subtitle is-size-3 has-text-weight-light is-size-5-mobile">Over the last 3 years I've helped build websites for businesses across many different industries.</h2>
 
                             <Link className="is-size-6 has-text-weight-light has-text-black" to="/">← Back home</Link>
                             <hr />
@@ -30,7 +30,7 @@ const Work = () => (
                 <div className="container">
                     <div className="columns is-centered">
                         <div className="column is-6">
-                            <div className="content has-text-justified is-medium">
+                            <div className="content has-text-justified is-medium is-size-6-mobile">
                                 <p>
                                     I built my first ever HTML site when I was 17 years old - 2011.
                                     <br />
