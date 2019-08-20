@@ -127,7 +127,7 @@ export default () => (
             <div className="content">
                 <p>
                     Frontend Static Marketing Site Developed for Fiix South Africa.
-                    Website was developed in Jekyll for performance and SEO. Being a static site, hosted on Netlify (for free), client don't need to worry about maintaining the website and can instead focus on his scaling his product.
+                    Website was developed in Jekyll for performance and SEO. Being a static site, hosted on Netlify (for free), client doesn't need to worry about maintaining the website and can instead focus on his scaling his product.
 </p>
             </div>
         </div>
