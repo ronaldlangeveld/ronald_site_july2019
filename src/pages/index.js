@@ -22,7 +22,7 @@ const IndexPage = () => (
   }
 `} render={data => (
   <Layout>
-    <SEO title="Ronald Langeveld | Full Stack Web Developer and Bootstrapper" image={data.cardImg.childImageSharp.fluid.src} />
+    <SEO title="Full Stack Web Developer and Bootstrapper" image={data.cardImg.childImageSharp.fluid.src} />
     <Header />
   </Layout>
 )}

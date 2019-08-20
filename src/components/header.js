@@ -44,7 +44,7 @@ export default () => (
                   <h1 className="title is-1 has-text-weight-light">Hi, I'm Ronald</h1>
             
                     <div className="content is-large has-text-weight-light">
-                      <p>I’m a freelance software engineer, with 3 years experience using <strong>Python 3</strong> and the <strong>Django web framework</strong>. I keep my applications running smoothly and automate tasks by deploying them onto <strong>Linux</strong> servers.</p>
+                      <p>I’m a freelance software engineer, with 3 years experience using <strong>Python 3</strong> and the <strong>Django web framework</strong>. I keep my applications running fast and automate tasks by deploying them onto <strong>Linux</strong> servers.</p>
                       <p>More recently I’m developing web applications with <strong>NodeJS</strong> and <strong>ReactJS</strong> as well as <strong>React Native</strong> to build iOS and Android apps.</p>
                       <p><strong>Need Web Development</strong> or <strong>Tech Consultation</strong> to kick off for your next big thing? <br />
                         <Link to="/work" className="has-text-dark"><u>Let's get in touch</u></Link>

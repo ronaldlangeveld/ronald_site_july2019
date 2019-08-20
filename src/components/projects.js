@@ -92,7 +92,7 @@ export default () => (
             <div className="media">
 
                 <div className="media-content">
-                    <a rel="noopener noreferrer" href="https://www.hamster.capital/?ref=ronaldlangeveld.com" target="_blank" className="title is-4">Hamster Capital</a>
+                    <a rel="noopener noreferrer" href="https://www.hamster.capital/?ref=ronaldlangeveld.com" target="_blank" className="title is-4" rel="noopener noreferrer">Hamster Capital</a>
 
                 </div>
             </div>
@@ -118,7 +118,7 @@ export default () => (
             <div className="media">
 
                 <div className="media-content">
-                    <a rel="noopener noreferrer" target="_blank" href="https://www.fiixsoftware.co.za/?ref=ronaldlangeveld.com" className="title is-4">Fiix South Africa</a>
+                    <a rel="noopener noreferrer" target="_blank" href="https://www.fiixsoftware.co.za/?ref=ronaldlangeveld.com" className="title is-4" rel="noopener noreferrer">Fiix South Africa</a>
 
                 </div>
             </div>

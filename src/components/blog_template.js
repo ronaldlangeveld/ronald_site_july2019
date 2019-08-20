@@ -3,6 +3,7 @@ import { graphql, Link } from "gatsby"
 import SEO from "../components/seo"
 import Img from 'gatsby-image';
 import 'bulma/css/bulma.min.css'
+import Layout from './layout'
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -10,13 +11,15 @@ export default function Template({
   const { markdownRemark } = data // data.markdownRemark holds our post data
   const { frontmatter, html } = markdownRemark
   return (
-    <section className="hero">
+<Layout>
+
+<section className="hero">
       <SEO title={frontmatter.title} />
       <div className="hero-body">
         <div className="container">
           <div className="columns is-centered">
 
-            <div className="column is-5">
+            <div className="column is-7">
               <h1 className="title is-3 has-text-weight-light">{frontmatter.title}</h1>
               <h2 className="has-text-weight-light subtitle is-6">{frontmatter.date}</h2>
               <hr />
@@ -52,6 +55,7 @@ export default function Template({
       </div>
 
     </section>
+</Layout>
     // <div className="blog-post-container">
     //   <div className="blog-post">
     // <h1>{frontmatter.title}</h1>

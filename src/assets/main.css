@@ -76,3 +76,46 @@ section .overlay {
     margin-left: 10px;
     margin-right: 10px;
   }
+
+
+  .chat_button{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 30px 40px;
+    height: 90px;
+    width: 16em;
+    text-align:center;
+    background-color: #e6e6e6;
+    border: none;
+    color: #77E;
+    cursor: pointer;
+    transition: visibility 0s linear 0.33s, opacity 0.33s linear;
+    border-radius: 10px;
+  }
+  .chat_button:hover {
+    border: 2px solid #Eff;
+    background-color: #77E;
+    color: #eff;
+    }
+
+    
+    
+  .chat_button:focus, :active{
+    outline: none;
+     
+  }
+
+
+  .chat_box {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 30px 40px;
+    /* height: 90px; */
+    width: 16em;
+    /* transition: .5s ease-in-out; */
+    transition: visibility 0s linear 0.33s, opacity 0.33s linear;
+
+  }
+ 
