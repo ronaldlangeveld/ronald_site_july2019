@@ -18,7 +18,8 @@ function ChatForm(props) {
 
     const sendMsg = () => {
 
-      const htmlText = `<b>` + chatBoxEmail + `</b> <i>` + chatBoxMsg + `</i>`;
+      const htmlText = `<b>` + chatBoxEmail + `</b> 
+      <i>` + chatBoxMsg + `</i>`;
 
 
       
