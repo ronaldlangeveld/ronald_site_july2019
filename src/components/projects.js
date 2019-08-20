@@ -62,7 +62,7 @@ export default () => (
                         <div className="column is-6 marginHeaders">
                             <br />
                             <h1 className="title is-1 has-text-weight-light">Projects</h1>
-                            <h2 className="subtitle is-size-3 has-text-weight-light">Some projects I've worked on over the last few months</h2>
+                            <h2 className="subtitle is-size-3 has-text-weight-light">A few of the projects I worked on over the last few months</h2>
 
                             <Link className="is-size-6 has-text-weight-light has-text-black" to="/">← Back home</Link>
                             <hr />
@@ -73,12 +73,13 @@ export default () => (
                     <div className="hero-body">
                         <div className="container">
 
-                           
-
                             <div className="columns is-centered">
 
                                 <div className="column is-6">
+                                <Link to='/work' className="is-size-5 has-text-weight-light">Interested in having an application developed for your businesss, startup or organisation? Let's get in touch</Link>
                                 
+                                <br />
+                                <br />
                                 <div className="columns is-multiline is-centered">
 
 <div className="column is-12">

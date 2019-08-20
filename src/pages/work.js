@@ -47,11 +47,10 @@ const Work = () => (
 
                             </div>
                             <ChatForm Form={form} />
-                            <p><a href="mailto:hi@ronaldlangeveld.com">Email</a></p>
-                            <p><a href="https://twitter.com/ronaldlangeveld" target="_blank" rel="noopener noreferrer">Twitter</a></p>
-                            <p><a href="https://t.me/ronaldl93" target="_blank" rel="noopener noreferrer">Telegram</a></p>
-                            <p><a href="https://github.com/ronaldlangeveld" target="_blank" rel="noopener noreferrer">Github</a></p>
-                            <p><a href="https://www.linkedin.com/in/ronald-langeveld-0889a623/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+                            
+                            <p>
+                                Alternatively, find me on <a href="https://twitter.com/ronaldlangeveld" target="_blank" rel="noopener noreferrer">Twitter</a>, <a href="https://t.me/ronaldl93" target="_blank" rel="noopener noreferrer">Telegram</a>, <a href="https://github.com/ronaldlangeveld" target="_blank" rel="noopener noreferrer">Github</a> or <a href="https://www.linkedin.com/in/ronald-langeveld-0889a623/" target="_blank" rel="noopener noreferrer">LinkedIn</a>.
+                            </p>
                   
                         </div>
                     </div>
