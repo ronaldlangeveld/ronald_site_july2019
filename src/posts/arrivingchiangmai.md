@@ -6,7 +6,7 @@ title: "Arriving in Chiang Mai"
 
 date: "2018-11-05"
 
-img: "https://res.cloudinary.com/cinemakers/image/upload/v1548908473/blog/IMG_5715.jpg"
+featuredImage: "../images/chiangmai.jpg"
 
 ---
 

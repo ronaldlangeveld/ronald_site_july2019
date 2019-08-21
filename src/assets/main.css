@@ -123,11 +123,19 @@ section .overlay {
  
 
   .responsiveImgBlog {
-    height: 20rem;
+    height: 25rem;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     
+}
+
+.responsiveImgPost {
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
 
 

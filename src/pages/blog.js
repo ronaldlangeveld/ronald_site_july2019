@@ -6,6 +6,7 @@ import PostLink from "../components/blog_list";
 import SEO from "../components/seo";
 
 
+
 const IndexPage = ({
   data: {
     allMarkdownRemark: { edges },
@@ -40,7 +41,13 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             path
             title
-            img
+            featuredImage {
+              childImageSharp {
+                sizes(maxWidth: 1000) {
+                  ...GatsbyImageSharpSizes
+                }
+              }
+            }
           }
         }
       }

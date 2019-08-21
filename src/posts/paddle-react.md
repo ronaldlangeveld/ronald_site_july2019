@@ -3,6 +3,8 @@ path: "/paddle-with-reactjs"
 date: "2019-08-17"
 title:  "How to integrate Paddle to your React JS application - the missing documentation."
 img: "https://res.cloudinary.com/cinemakers/image/upload/v1566355268/blog/screely-1566355198256.png"
+
+featuredImage: "../images/paddle.png"
 ---
 
 [Grab the project's source code from Github here!](https://github.com/ronaldlangeveld/paddlejs-react)

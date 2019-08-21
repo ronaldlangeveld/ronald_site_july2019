@@ -2,7 +2,7 @@
 path: "/number-1-on-hackernews"
 date: "2018-10-10"
 title:  "My blog post went to #1 on Hacker News!"
-img: "https://res.cloudinary.com/cinemakers/image/upload/v1540363159/blog/Screenshot-2018-10-08-at-08.52.24-3.png"
+featuredImage: "../images/hackernews.png"
 ---
 
 On Sunday evening I decided to once and for all kill my Facebook account. But I didn't want to lose everything so I managed to back up everything.

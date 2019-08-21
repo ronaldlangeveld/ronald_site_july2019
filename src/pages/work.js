@@ -30,7 +30,7 @@ const Work = () => (
                 <div className="container">
                     <div className="columns is-centered">
                         <div className="column is-6">
-                            <div className="content has-text-justified is-medium is-size-6-mobile">
+                            <div className="content has-text-justified is-size-6 is-size-6-mobile">
                                 <p>
                                     I built my first ever HTML site when I was 17 years old - 2011.
                                     <br />

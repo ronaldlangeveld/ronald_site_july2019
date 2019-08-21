@@ -4,6 +4,7 @@ import SEO from "../components/seo"
 import Img from 'gatsby-image';
 import 'bulma/css/bulma.min.css'
 import Layout from './layout'
+import BackgroundImage from 'gatsby-background-image'
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -12,7 +13,11 @@ export default function Template({
   const { frontmatter, html } = markdownRemark
   return (
 <Layout>
-
+<BackgroundImage Tag="section"
+                           className="responsiveImgPost"
+                           fluid={frontmatter.featuredImage.childImageSharp.sizes}
+          >
+          </BackgroundImage>
 <section className="hero">
       <SEO title={frontmatter.title} />
       <div className="hero-body">
@@ -80,6 +85,13 @@ export const pageQuery = graphql`
         date(formatString: "DD MMMM YYYY")
         path
         title
+        featuredImage {
+          childImageSharp {
+            sizes(maxWidth: 2000) {
+              ...GatsbyImageSharpSizes
+            }
+          }
+        }
       }
     }
     profilepic: file(relativePath: { eq: "bigimg2.jpg" }) {

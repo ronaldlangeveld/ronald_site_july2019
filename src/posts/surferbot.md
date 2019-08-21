@@ -8,6 +8,8 @@ date: "2018-01-10"
 
 img: "https://images.unsplash.com/photo-1466094899371-97b327dff551?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80"
 
+featuredImage: "../images/ocean.jpeg"
+
 ---
 
 

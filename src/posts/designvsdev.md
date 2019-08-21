@@ -11,7 +11,7 @@ title: "Difference between Designers and Developers"
 
 date: "2019-03-03"
 
-img: "https://images.unsplash.com/photo-1521898284481-a5ec348cb555?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80"
+featuredImage: "../images/design.jpeg"
 
 
 ---

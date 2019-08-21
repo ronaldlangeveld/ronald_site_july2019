@@ -6,7 +6,8 @@ title: "Telegram is more than just an instant messaging app"
 
 date: "2018-04-24"
 
-img: "https://res.cloudinary.com/cinemakers/image/upload/v1566355871/blog/DHqnCCcWsAAa7X2.jpg"
+
+featuredImage: "../images/telegram.jpg"
 
 ---
 

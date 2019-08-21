@@ -1,22 +1,19 @@
 import React from "react"
 import { Link } from "gatsby"
+import BackgroundImage from 'gatsby-background-image'
 
 const PostLink = ({ post }) => (
 
 <div data-aos="fade-right" data-aos-duration="1000">
 
 
-{(post.frontmatter.img ? 
+
 <Link to={post.frontmatter.path}>
-<div style={{ backgroundImage: `url(${post.frontmatter.img})` }} className="responsiveImgBlog" >
-</div> 
-<br />
-</Link>
-:
-""
-  )}
-
-
+<BackgroundImage Tag="section"
+                           className="responsiveImgBlog"
+                           fluid={post.frontmatter.featuredImage.childImageSharp.sizes}
+          >
+          </BackgroundImage></Link>
 
 <p className="help">{post.frontmatter.date}</p>
 <p> <Link to={post.frontmatter.path} className="title is-5 is-size-6-mobile">

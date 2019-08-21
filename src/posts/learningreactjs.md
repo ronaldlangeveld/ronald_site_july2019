@@ -9,6 +9,8 @@ date: "2019-02-23"
 
 img: "https://reactjs.org/logo-og.png"
 
+featuredImage: "../images/react.png"
+
 ---
   
 
