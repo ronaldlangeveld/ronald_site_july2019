@@ -123,7 +123,7 @@ section .overlay {
  
 
   .responsiveImgBlog {
-    height: 30rem;
+    height: 20rem;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
