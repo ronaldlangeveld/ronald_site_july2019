@@ -129,3 +129,9 @@ section .overlay {
     background-size: cover;
     
 }
+
+
+.delayBox {
+  animation-delay: 2s;
+    transition: .5s ease-in-out;
+}

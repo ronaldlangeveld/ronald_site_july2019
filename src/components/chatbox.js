@@ -26,7 +26,7 @@ function ChatBox() {
 
   return (
 <>
-<div className="chat_box">
+<div data-aos="fade-up" data-aos-duration="1000" className="chat_box">
 <div className={(state.isChatBox ? '': 'is-hidden') }>
 <div className={(chat ? 'is-hidden': '') }>
 

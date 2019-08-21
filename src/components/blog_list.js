@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 const PostLink = ({ post }) => (
 
-<div>
+<div data-aos="fade-right" data-aos-duration="1000">
 
 
 {(post.frontmatter.img ? 

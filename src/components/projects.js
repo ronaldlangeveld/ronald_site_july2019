@@ -82,7 +82,7 @@ export default () => (
                                 <br />
                                 <div className="columns is-multiline is-centered">
 
-<div className="column is-12">
+<div className="column is-12" data-aos="fade-right" data-aos-duration="1000">
     <div className="card">
         <div className="card-image">
             <figure className="image">
@@ -108,7 +108,7 @@ export default () => (
         </div>
     </div>
 </div>
-<div className="column is-12">
+<div className="column is-12" data-aos="fade-right" data-aos-duration="1000">
     <div className="card">
         <div className="card-image">
             <figure className="image">
@@ -133,7 +133,7 @@ export default () => (
         </div>
     </div>
 </div>
-<div className="column is-12">
+<div className="column is-12" data-aos="fade-right" data-aos-duration="1000">
     <div className="card">
         <div className="card-image">
             <figure className="image">
@@ -157,7 +157,7 @@ export default () => (
         </div>
     </div>
 </div>
-<div className="column is-12">
+<div className="column is-12" data-aos="fade-right" data-aos-duration="1000">
     <div className="card">
         <div className="card-image">
             <figure className="image">
@@ -183,7 +183,7 @@ export default () => (
 </div>
 
 
-<div className="column is-12">
+<div className="column is-12" data-aos="fade-right" data-aos-duration="1000">
     <div className="card">
         <div className="card-image">
             <figure className="image">
@@ -210,7 +210,7 @@ export default () => (
 </div>
 
 
-<div className="column is-12">
+<div className="column is-12" data-aos="fade-right" data-aos-duration="1000">
     <div className="card">
         <div className="card-image">
             <figure className="image">
