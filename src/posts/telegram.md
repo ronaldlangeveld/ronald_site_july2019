@@ -6,6 +6,8 @@ title: "Telegram is more than just an instant messaging app"
 
 date: "2018-04-24"
 
+img: "https://res.cloudinary.com/cinemakers/image/upload/v1566355871/blog/DHqnCCcWsAAa7X2.jpg"
+
 ---
 
 **Telegram is more than just an Instant Messaging App. It's like the Swiss Army Knife of Instant Messaging apps.**

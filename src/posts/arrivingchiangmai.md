@@ -6,6 +6,8 @@ title: "Arriving in Chiang Mai"
 
 date: "2018-11-05"
 
+img: "https://res.cloudinary.com/cinemakers/image/upload/v1548908473/blog/IMG_5715.jpg"
+
 ---
 
 The morning of my flight to Chiang Mai, I checked in online and had that sorted. Good thing I did that as I noticed my flight is from Don Muang Airport and not the big airport where I arrived.

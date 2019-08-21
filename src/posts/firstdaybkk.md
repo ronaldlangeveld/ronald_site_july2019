@@ -4,6 +4,8 @@ path: "/first-days-in-bangkok"
 date: "2018-11-04"
 title: "First few days in Bangkok"
 
+img: "https://images.unsplash.com/photo-1521566878949-d0febfb1e9bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2694&q=80"
+
 ---
 
 On 10 October 2019 I spontaneously booked a 3 month trip to Thailand.

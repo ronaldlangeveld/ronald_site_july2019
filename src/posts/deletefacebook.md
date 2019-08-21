@@ -3,6 +3,7 @@
 path: "/deleting-facebook"
 date: "2018-10-08"
 title:  "How to delete Facebook and not lose your friends (and photos)"
+img: "https://res.cloudinary.com/cinemakers/image/upload/v1540215533/blog/byefacebook.png"
 
 ---
 

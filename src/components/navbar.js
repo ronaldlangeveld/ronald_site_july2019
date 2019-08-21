@@ -37,6 +37,9 @@ function Navbar() {
       <Link to='/work' className="navbar-item">
         Work with me
       </Link>
+      <a href="https://nomadlist.com/@ronald" target="_blank" className="navbar-item">
+        Whereabouts
+      </a>
 
     </div>
 

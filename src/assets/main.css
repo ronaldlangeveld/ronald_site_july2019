@@ -8,6 +8,8 @@ html, body {
 body {
   position: relative
 }
+
+
 .responsiveBg {
     height: 100%;
     background-position: center;
@@ -119,3 +121,11 @@ section .overlay {
 
   }
  
+
+  .responsiveImgBlog {
+    height: 30rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
