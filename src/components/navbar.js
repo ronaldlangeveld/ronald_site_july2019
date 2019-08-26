@@ -34,6 +34,10 @@ function Navbar() {
         Clients
       </Link>
 
+      <Link to='/side-projects' className="navbar-item">
+        Side Projects
+      </Link>
+
       <Link to='/work' className="navbar-item">
         Work with me
       </Link>

@@ -10,6 +10,7 @@ const McDonalds = () => {
     query MyQuery {
         allMaccasJson(sort: {fields: mcds_per_1000_people, order: DESC}) {
           nodes {
+            id
             country
             mcds_per_1000_people
             population
@@ -62,11 +63,11 @@ const maccas = data.allMaccasJson.nodes;
 
     <thead>
     <tr>
+        <th></th>
       <th>Country</th>
-      <th>Population</th>
       <th>Number of McDonalds restaurants</th>
       <th>McDonalds outlets per 1000 people</th>
-      <th>Number of people per outlet</th>
+
     </tr>
   </thead>
 
@@ -76,21 +77,18 @@ const maccas = data.allMaccasJson.nodes;
 
 
 <tr>
+<td><Link to={mac.id}>Info 🍔</Link></td>
 <td className="has-text-weight-bold">{mac.country}</td>
-<td><NumericLabel>{mac.population}</NumericLabel></td>
 <td><NumericLabel>{mac.mcdonalds}</NumericLabel></td>
 <td><progress class="progress is-danger" value={mac.mcds_per_1000_people} max="1">{mac.mcds_per_1000_people}</progress>
 <NumericLabel>{mac.mcds_per_1000_people}</NumericLabel>
 </td>
 <td>
-<NumericLabel>{mac.people_per_outlet}</NumericLabel>
 </td>
 </tr>
 
 
     
-    
-
 ))}
 
         </tbody>
@@ -101,6 +99,15 @@ const maccas = data.allMaccasJson.nodes;
 
 
     </div>
+
+    <div className="hero-footer">
+
+<div className="container has-text-centered is-size-7">
+<p>We are in no way affiliated or endorsed by McDonalds Inc.</p>
+<p>We are not responsible for any errors or omissions, or for the results obtained from the use of this information. All information in this site is provided “as is”, with no guarantee of completeness, accuracy, timeliness or of the results obtained from the use of this information.</p>
+
+</div>
+</div>
 
 
   </Layout>

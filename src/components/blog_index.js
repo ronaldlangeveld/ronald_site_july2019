@@ -3,8 +3,6 @@ import { Link } from "gatsby"
 
 const PostIndex = ({ children }) => {
     return (
-
-
         <section className="hero">
             <div className="hero-header">
                 <div className="container">
@@ -34,9 +32,6 @@ const PostIndex = ({ children }) => {
                 </div>
             </div>
         </section>
-
-
-
     );
 }
 

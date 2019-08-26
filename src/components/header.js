@@ -5,7 +5,7 @@ import { Link } from "gatsby";
 import Navbar from './navbar';
 
 export default () => (
-  
+
   <StaticQuery
     query={graphql`
   query {
@@ -19,7 +19,7 @@ export default () => (
 }
 `}
     render={data => (
-      <div>
+      <>
 
         <section className="hero">
           <div className="hero-header">
@@ -40,9 +40,9 @@ export default () => (
                 <div className="column is-6">
 
                   <div>
-  
-                  <h1 className="title is-1 has-text-weight-light is-size-3-mobile">Hi, I'm Ronald</h1>
-            
+
+                    <h1 className="title is-1 has-text-weight-light is-size-3-mobile">Hi, I'm Ronald</h1>
+
                     <div className="content is-large has-text-weight-light is-size-5-mobile">
                       <p>I’m a freelance software engineer, with 3 years experience using <strong>Python 3</strong> and the <strong>Django web framework</strong>. I keep my applications running fast and automate tasks by deploying them onto <strong>Linux</strong> servers.</p>
                       <p>More recently I’m developing web applications with <strong>NodeJS</strong> and <strong>ReactJS</strong> as well as <strong>React Native</strong> to build iOS and Android apps.</p>
@@ -59,7 +59,9 @@ export default () => (
                     </div> */}
 
                   </div>
-                         
+
+
+                    <hr />
 
                 </div>
 
@@ -71,8 +73,7 @@ export default () => (
 
         </section>
 
-
-      </div>
+      </>
     )} />)
 
 const ProfilePic = {
