@@ -16,10 +16,12 @@ const McDonalds = () => {
             population
             people_per_outlet
             mcdonalds
+            slug
           }
         }
       }
   `) 
+
   console.log(data.allMaccasJson.nodes)
   const [labels, setLabels] = useState("")
   const [dataset, setDataset] = useState("")
@@ -33,7 +35,6 @@ const maccas = data.allMaccasJson.nodes;
   return(
   <Layout>
     <SEO title="McDonalds Per Capita" />
-
     <>
     <section className="hero">
             <div className="hero-header">
@@ -52,7 +53,6 @@ const maccas = data.allMaccasJson.nodes;
             </div>
         </section>
         <div>
-        
         </div>
     </>
 
@@ -76,8 +76,8 @@ const maccas = data.allMaccasJson.nodes;
         {data.allMaccasJson.nodes.map(mac => (
 
 
-<tr>
-<td><Link to={mac.id}>Chart</Link></td>
+<tr key={mac.id}>
+<td><Link to={`/mcdonalds/${mac.slug}`}>Chart</Link></td>
 <td className="has-text-weight-bold">{mac.country}</td>
 <td><NumericLabel>{mac.mcdonalds}</NumericLabel></td>
 <td><progress class="progress is-danger" value={mac.mcds_per_1000_people} max="1">{mac.mcds_per_1000_people}</progress>

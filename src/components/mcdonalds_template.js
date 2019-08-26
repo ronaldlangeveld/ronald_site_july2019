@@ -14,7 +14,9 @@ export default function Template({
 const {allMaccasJson} = data
 const {edges} = allMaccasJson
 
-console.log()
+// console.log(data)
+
+console.log(edges)
 
 const McData = edges[0].node;
 
@@ -75,12 +77,9 @@ return (
       </div>
       </div>
 
-    </section>
+    </section> 
 </Layout>
-    // <div className="blog-post-container">
-    //   <div className="blog-post">
-    // <h1>{frontmatter.title}</h1>
-    // <h2>{frontmatter.date}</h2>
+
 
   )
 }
@@ -93,19 +92,19 @@ const ProfilePic = {
 }
 
 export const pageQuery = graphql`
-query($path: String!) {
-    allMaccasJson(filter: { id: { eq: $path } }) {
-      edges {
-        node {
-          mcds_per_1000_people
-          mcdonalds
-          country
-          population
-          people_per_outlet
-          id
-        }
+query($slug: String!) {
+  allMaccasJson(filter: { slug: { eq: $slug } }) {
+    edges {
+      node {
+        mcds_per_1000_people
+        mcdonalds
+        country
+        population
+        people_per_outlet
+        id
       }
     }
   }
+}
   
 `
