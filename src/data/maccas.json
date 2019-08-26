@@ -1,0 +1,828 @@
+[
+  {
+    "country": "American Samoa",
+    "mcdonalds": 2,
+    "population": 55312,
+    "people_per_outlet": 27656,
+    "mcds_per_1000_people": 0.3615851895
+  },
+  {
+    "country": "Andorra",
+    "mcdonalds": 5,
+    "population": 77142,
+    "people_per_outlet": 15428.4,
+    "mcds_per_1000_people": 0.6481553499
+  },
+  {
+    "country": "Argentina",
+    "mcdonalds": 222,
+    "population": 44780677,
+    "people_per_outlet": 201714.7613,
+    "mcds_per_1000_people": 0.04957495395
+  },
+  {
+    "country": "Aruba",
+    "mcdonalds": 4,
+    "population": 106314,
+    "people_per_outlet": 26578.5,
+    "mcds_per_1000_people": 0.3762439566
+  },
+  {
+    "country": "Australia",
+    "mcdonalds": 920,
+    "population": 25203198,
+    "people_per_outlet": 27394.78043,
+    "mcds_per_1000_people": 0.3650330406
+  },
+  {
+    "country": "Austria",
+    "mcdonalds": 193,
+    "population": 8955102,
+    "people_per_outlet": 46399.49223,
+    "mcds_per_1000_people": 0.2155195999
+  },
+  {
+    "country": "Azerbaijan",
+    "mcdonalds": 15,
+    "population": 10047718,
+    "people_per_outlet": 669847.8667,
+    "mcds_per_1000_people": 0.01492876293
+  },
+  {
+    "country": "Bahamas",
+    "mcdonalds": 3,
+    "population": 389482,
+    "people_per_outlet": 129827.3333,
+    "mcds_per_1000_people": 0.07702538243
+  },
+  {
+    "country": "Bahrain",
+    "mcdonalds": 23,
+    "population": 1641172,
+    "people_per_outlet": 71355.30435,
+    "mcds_per_1000_people": 0.1401437509
+  },
+  {
+    "country": "Belarus",
+    "mcdonalds": 15,
+    "population": 9452411,
+    "people_per_outlet": 630160.7333,
+    "mcds_per_1000_people": 0.01586896719
+  },
+  {
+    "country": "Belgium",
+    "mcdonalds": 74,
+    "population": 11539328,
+    "people_per_outlet": 155936.8649,
+    "mcds_per_1000_people": 0.06412851771
+  },
+  {
+    "country": "Bosnia and Herzegovina",
+    "mcdonalds": 4,
+    "population": 3301000,
+    "people_per_outlet": 825250,
+    "mcds_per_1000_people": 0.01211754014
+  },
+  {
+    "country": "Brazil",
+    "mcdonalds": 812,
+    "population": 211049527,
+    "people_per_outlet": 259913.2106,
+    "mcds_per_1000_people": 0.03847438142
+  },
+  {
+    "country": "Brunei",
+    "mcdonalds": 3,
+    "population": 433285,
+    "people_per_outlet": 144428.3333,
+    "mcds_per_1000_people": 0.06923849199
+  },
+  {
+    "country": "Bulgaria",
+    "mcdonalds": 42,
+    "population": 7000119,
+    "people_per_outlet": 166669.5,
+    "mcds_per_1000_people": 0.05999898002
+  },
+  {
+    "country": "Canada",
+    "mcdonalds": 1450,
+    "population": 37411047,
+    "people_per_outlet": 25800.72207,
+    "mcds_per_1000_people": 0.3875860518
+  },
+  {
+    "country": "Chile",
+    "mcdonalds": 77,
+    "population": 18952038,
+    "people_per_outlet": 246130.3636,
+    "mcds_per_1000_people": 0.0406288759
+  },
+  {
+    "country": "China",
+    "mcdonalds": 2700,
+    "population": 1433783686,
+    "people_per_outlet": 531030.9948,
+    "mcds_per_1000_people": 0.01883129252
+  },
+  {
+    "country": "Colombia",
+    "mcdonalds": 81,
+    "population": 50339443,
+    "people_per_outlet": 621474.6049,
+    "mcds_per_1000_people": 0.01609076207
+  },
+  {
+    "country": "Costa Rica",
+    "mcdonalds": 54,
+    "population": 5047561,
+    "people_per_outlet": 93473.35185,
+    "mcds_per_1000_people": 0.1069823624
+  },
+  {
+    "country": "Croatia",
+    "mcdonalds": 30,
+    "population": 4130304,
+    "people_per_outlet": 137676.8,
+    "mcds_per_1000_people": 0.07263387877
+  },
+  {
+    "country": "Cuba",
+    "mcdonalds": 1,
+    "population": 11333483,
+    "people_per_outlet": 11333483,
+    "mcds_per_1000_people": 0.0008823412891
+  },
+  {
+    "country": "Curacao",
+    "mcdonalds": 5,
+    "population": 163424,
+    "people_per_outlet": 32684.8,
+    "mcds_per_1000_people": 0.3059526141
+  },
+  {
+    "country": "Cyprus",
+    "mcdonalds": 18,
+    "population": 1179551,
+    "people_per_outlet": 65530.61111,
+    "mcds_per_1000_people": 0.1526004386
+  },
+  {
+    "country": "Czech Republic",
+    "mcdonalds": 99,
+    "population": 10689209,
+    "people_per_outlet": 107971.8081,
+    "mcds_per_1000_people": 0.09261676893
+  },
+  {
+    "country": "Denmark",
+    "mcdonalds": 89,
+    "population": 5771876,
+    "people_per_outlet": 64852.53933,
+    "mcds_per_1000_people": 0.1541959668
+  },
+  {
+    "country": "Dominican Republic",
+    "mcdonalds": 31,
+    "population": 10738958,
+    "people_per_outlet": 346418,
+    "mcds_per_1000_people": 0.02886686027
+  },
+  {
+    "country": "Ecuador",
+    "mcdonalds": 27,
+    "population": 17373662,
+    "people_per_outlet": 643468.963,
+    "mcds_per_1000_people": 0.0155407651
+  },
+  {
+    "country": "Egypt",
+    "mcdonalds": 104,
+    "population": 100388073,
+    "people_per_outlet": 965269.9327,
+    "mcds_per_1000_people": 0.01035979643
+  },
+  {
+    "country": "El Salvador",
+    "mcdonalds": 20,
+    "population": 6453553,
+    "people_per_outlet": 322677.65,
+    "mcds_per_1000_people": 0.03099068064
+  },
+  {
+    "country": "Estonia",
+    "mcdonalds": 10,
+    "population": 1325648,
+    "people_per_outlet": 132564.8,
+    "mcds_per_1000_people": 0.07543480622
+  },
+  {
+    "country": "Fiji",
+    "mcdonalds": 4,
+    "population": 889953,
+    "people_per_outlet": 222488.25,
+    "mcds_per_1000_people": 0.04494619379
+  },
+  {
+    "country": "Finland",
+    "mcdonalds": 65,
+    "population": 5532156,
+    "people_per_outlet": 85110.09231,
+    "mcds_per_1000_people": 0.117494879
+  },
+  {
+    "country": "France",
+    "mcdonalds": 1419,
+    "population": 65129728,
+    "people_per_outlet": 45898.3284,
+    "mcds_per_1000_people": 0.2178728583
+  },
+  {
+    "country": "French Guiana",
+    "mcdonalds": 2,
+    "population": 282731,
+    "people_per_outlet": 141365.5,
+    "mcds_per_1000_people": 0.07073861727
+  },
+  {
+    "country": "French Polynesia",
+    "mcdonalds": 6,
+    "population": 279287,
+    "people_per_outlet": 46547.83333,
+    "mcds_per_1000_people": 0.2148327706
+  },
+  {
+    "country": "Georgia",
+    "mcdonalds": 14,
+    "population": 3996765,
+    "people_per_outlet": 285483.2143,
+    "mcds_per_1000_people": 0.03502832916
+  },
+  {
+    "country": "Germany",
+    "mcdonalds": 1480,
+    "population": 83517045,
+    "people_per_outlet": 56430.43581,
+    "mcds_per_1000_people": 0.1772093349
+  },
+  {
+    "country": "Gibraltar",
+    "mcdonalds": 1,
+    "population": 33701,
+    "people_per_outlet": 33701,
+    "mcds_per_1000_people": 0.2967271001
+  },
+  {
+    "country": "Greece",
+    "mcdonalds": 24,
+    "population": 10473455,
+    "people_per_outlet": 436393.9583,
+    "mcds_per_1000_people": 0.02291507435
+  },
+  {
+    "country": "Guadeloupe",
+    "mcdonalds": 8,
+    "population": 447905,
+    "people_per_outlet": 55988.125,
+    "mcds_per_1000_people": 0.1786093033
+  },
+  {
+    "country": "Guam",
+    "mcdonalds": 6,
+    "population": 167294,
+    "people_per_outlet": 27882.33333,
+    "mcds_per_1000_people": 0.3586500412
+  },
+  {
+    "country": "Guatemala",
+    "mcdonalds": 94,
+    "population": 17581472,
+    "people_per_outlet": 187036.9362,
+    "mcds_per_1000_people": 0.05346537537
+  },
+  {
+    "country": "Honduras",
+    "mcdonalds": 11,
+    "population": 9746117,
+    "people_per_outlet": 886010.6364,
+    "mcds_per_1000_people": 0.01128654622
+  },
+  {
+    "country": "Hong Kong",
+    "mcdonalds": 237,
+    "population": 7436154,
+    "people_per_outlet": 31376.17722,
+    "mcds_per_1000_people": 0.3187131412
+  },
+  {
+    "country": "Hungary",
+    "mcdonalds": 88,
+    "population": 9684979,
+    "people_per_outlet": 110056.5795,
+    "mcds_per_1000_people": 0.09086235499
+  },
+  {
+    "country": "India",
+    "mcdonalds": 290,
+    "population": 133417754,
+    "people_per_outlet": 460061.2207,
+    "mcds_per_1000_people": 0.02173623759
+  },
+  {
+    "country": "Indonesia",
+    "mcdonalds": 170,
+    "population": 270625568,
+    "people_per_outlet": 1591915.106,
+    "mcds_per_1000_people": 0.006281742012
+  },
+  {
+    "country": "Iraq",
+    "mcdonalds": 1,
+    "population": 39309783,
+    "people_per_outlet": 39309783,
+    "mcds_per_1000_people": 0.0002543896007
+  },
+  {
+    "country": "Ireland",
+    "mcdonalds": 89,
+    "population": 4882495,
+    "people_per_outlet": 54859.49438,
+    "mcds_per_1000_people": 0.1822838528
+  },
+  {
+    "country": "Isle of Man",
+    "mcdonalds": 1,
+    "population": 84584,
+    "people_per_outlet": 84584,
+    "mcds_per_1000_people": 0.1182256692
+  },
+  {
+    "country": "Israel",
+    "mcdonalds": 185,
+    "population": 8519377,
+    "people_per_outlet": 46050.68649,
+    "mcds_per_1000_people": 0.2171520288
+  },
+  {
+    "country": "Italy",
+    "mcdonalds": 584,
+    "population": 60550075,
+    "people_per_outlet": 103681.6353,
+    "mcds_per_1000_people": 0.09644909606
+  },
+  {
+    "country": "Japan",
+    "mcdonalds": 2975,
+    "population": 126860301,
+    "people_per_outlet": 42642.11798,
+    "mcds_per_1000_people": 0.2345099276
+  },
+  {
+    "country": "Jersey",
+    "mcdonalds": 1,
+    "population": 106800,
+    "people_per_outlet": 106800,
+    "mcds_per_1000_people": 0.0936329588
+  },
+  {
+    "country": "Jordan",
+    "mcdonalds": 31,
+    "population": 10101694,
+    "people_per_outlet": 325861.0968,
+    "mcds_per_1000_people": 0.03068792224
+  },
+  {
+    "country": "Kazakhstan",
+    "mcdonalds": 14,
+    "population": 18551427,
+    "people_per_outlet": 1325101.929,
+    "mcds_per_1000_people": 0.007546589273
+  },
+  {
+    "country": "Kuwait",
+    "mcdonalds": 77,
+    "population": 4207083,
+    "people_per_outlet": 54637.44156,
+    "mcds_per_1000_people": 0.1830246753
+  },
+  {
+    "country": "Latvia",
+    "mcdonalds": 13,
+    "population": 1906743,
+    "people_per_outlet": 146672.5385,
+    "mcds_per_1000_people": 0.06817908863
+  },
+  {
+    "country": "Lebanon",
+    "mcdonalds": 23,
+    "population": 6855713,
+    "people_per_outlet": 298074.4783,
+    "mcds_per_1000_people": 0.03354866226
+  },
+  {
+    "country": "Liechtenstein",
+    "mcdonalds": 1,
+    "population": 38019,
+    "people_per_outlet": 38019,
+    "mcds_per_1000_people": 0.2630263815
+  },
+  {
+    "country": "Lithuania",
+    "mcdonalds": 13,
+    "population": 2759627,
+    "people_per_outlet": 212279,
+    "mcds_per_1000_people": 0.04710781566
+  },
+  {
+    "country": "Luxembourg",
+    "mcdonalds": 10,
+    "population": 615729,
+    "people_per_outlet": 61572.9,
+    "mcds_per_1000_people": 0.1624091118
+  },
+  {
+    "country": "Macau",
+    "mcdonalds": 27,
+    "population": 640445,
+    "people_per_outlet": 23720.18519,
+    "mcds_per_1000_people": 0.4215818689
+  },
+  {
+    "country": "Malaysia",
+    "mcdonalds": 314,
+    "population": 31949777,
+    "people_per_outlet": 101750.8822,
+    "mcds_per_1000_people": 0.09827924621
+  },
+  {
+    "country": "Malta",
+    "mcdonalds": 10,
+    "population": 440372,
+    "people_per_outlet": 44037.2,
+    "mcds_per_1000_people": 0.2270807408
+  },
+  {
+    "country": "Martinique",
+    "mcdonalds": 9,
+    "population": 375554,
+    "people_per_outlet": 41728.22222,
+    "mcds_per_1000_people": 0.239645963
+  },
+  {
+    "country": "Mauritius",
+    "mcdonalds": 7,
+    "population": 1198575,
+    "people_per_outlet": 171225,
+    "mcds_per_1000_people": 0.05840268652
+  },
+  {
+    "country": "Mexico",
+    "mcdonalds": 402,
+    "population": 127575529,
+    "people_per_outlet": 317352.0622,
+    "mcds_per_1000_people": 0.03151074529
+  },
+  {
+    "country": "Moldova",
+    "mcdonalds": 5,
+    "population": 4043263,
+    "people_per_outlet": 808652.6,
+    "mcds_per_1000_people": 0.01236624973
+  },
+  {
+    "country": "Monaco",
+    "mcdonalds": 2,
+    "population": 38964,
+    "people_per_outlet": 19482,
+    "mcds_per_1000_people": 0.513294323
+  },
+  {
+    "country": "Morocco",
+    "mcdonalds": 47,
+    "population": 36471769,
+    "people_per_outlet": 775995.0851,
+    "mcds_per_1000_people": 0.01288667956
+  },
+  {
+    "country": "Netherlands",
+    "mcdonalds": 245,
+    "population": 17097130,
+    "people_per_outlet": 69784.20408,
+    "mcds_per_1000_people": 0.1432989046
+  },
+  {
+    "country": "New Caledonia",
+    "mcdonalds": 2,
+    "population": 282750,
+    "people_per_outlet": 141375,
+    "mcds_per_1000_people": 0.07073386384
+  },
+  {
+    "country": "New Zealand",
+    "mcdonalds": 166,
+    "population": 4783063,
+    "people_per_outlet": 28813.63253,
+    "mcds_per_1000_people": 0.3470579417
+  },
+  {
+    "country": "Nicaragua",
+    "mcdonalds": 6,
+    "population": 6545502,
+    "people_per_outlet": 1090917,
+    "mcds_per_1000_people": 0.009166600209
+  },
+  {
+    "country": "Northern Marianas",
+    "mcdonalds": 2,
+    "population": 56188,
+    "people_per_outlet": 28094,
+    "mcds_per_1000_people": 0.3559478892
+  },
+  {
+    "country": "Norway",
+    "mcdonalds": 73,
+    "population": 5337962,
+    "people_per_outlet": 73122.76712,
+    "mcds_per_1000_people": 0.1367563126
+  },
+  {
+    "country": "Oman",
+    "mcdonalds": 23,
+    "population": 4974986,
+    "people_per_outlet": 216303.7391,
+    "mcds_per_1000_people": 0.04623128588
+  },
+  {
+    "country": "Pakistan",
+    "mcdonalds": 60,
+    "population": 216565318,
+    "people_per_outlet": 3609421.967,
+    "mcds_per_1000_people": 0.002770526719
+  },
+  {
+    "country": "Panama",
+    "mcdonalds": 57,
+    "population": 4246439,
+    "people_per_outlet": 74498.92982,
+    "mcds_per_1000_people": 0.1342301161
+  },
+  {
+    "country": "Paraguay",
+    "mcdonalds": 19,
+    "population": 7044636,
+    "people_per_outlet": 370770.3158,
+    "mcds_per_1000_people": 0.02697087543
+  },
+  {
+    "country": "Peru",
+    "mcdonalds": 40,
+    "population": 32510453,
+    "people_per_outlet": 812761.325,
+    "mcds_per_1000_people": 0.01230373505
+  },
+  {
+    "country": "Philippines",
+    "mcdonalds": 566,
+    "population": 108116615,
+    "people_per_outlet": 191018.7544,
+    "mcds_per_1000_people": 0.05235088057
+  },
+  {
+    "country": "Poland",
+    "mcdonalds": 402,
+    "population": 37887768,
+    "people_per_outlet": 94248.1791,
+    "mcds_per_1000_people": 0.1061028456
+  },
+  {
+    "country": "Portugal",
+    "mcdonalds": 148,
+    "population": 10226187,
+    "people_per_outlet": 69095.85811,
+    "mcds_per_1000_people": 0.1447264753
+  },
+  {
+    "country": "Puerto Rico",
+    "mcdonalds": 108,
+    "population": 2933408,
+    "people_per_outlet": 27161.18519,
+    "mcds_per_1000_people": 0.3681724465
+  },
+  {
+    "country": "Qatar",
+    "mcdonalds": 42,
+    "population": 2832067,
+    "people_per_outlet": 67430.16667,
+    "mcds_per_1000_people": 0.1483015762
+  },
+  {
+    "country": "Reunion",
+    "mcdonalds": 4,
+    "population": 888927,
+    "people_per_outlet": 222231.75,
+    "mcds_per_1000_people": 0.04499807071
+  },
+  {
+    "country": "Romania",
+    "mcdonalds": 70,
+    "population": 19364557,
+    "people_per_outlet": 276636.5286,
+    "mcds_per_1000_people": 0.03614851608
+  },
+  {
+    "country": "Russia",
+    "mcdonalds": 645,
+    "population": 145872256,
+    "people_per_outlet": 226158.5364,
+    "mcds_per_1000_people": 0.04421677005
+  },
+  {
+    "country": "Samoa",
+    "mcdonalds": 1,
+    "population": 197097,
+    "people_per_outlet": 197097,
+    "mcds_per_1000_people": 0.05073643942
+  },
+  {
+    "country": "San Marino",
+    "mcdonalds": 1,
+    "population": 33860,
+    "people_per_outlet": 33860,
+    "mcds_per_1000_people": 0.2953337271
+  },
+  {
+    "country": "Saudi Arabia",
+    "mcdonalds": 263,
+    "population": 34268528,
+    "people_per_outlet": 130298.5856,
+    "mcds_per_1000_people": 0.07674680395
+  },
+  {
+    "country": "Serbia",
+    "mcdonalds": 30,
+    "population": 8772235,
+    "people_per_outlet": 292407.8333,
+    "mcds_per_1000_people": 0.03419881022
+  },
+  {
+    "country": "Singapore",
+    "mcdonalds": 136,
+    "population": 5804337,
+    "people_per_outlet": 42678.94853,
+    "mcds_per_1000_people": 0.2343075531
+  },
+  {
+    "country": "Sint Maarten",
+    "mcdonalds": 3,
+    "population": 42388,
+    "people_per_outlet": 14129.33333,
+    "mcds_per_1000_people": 0.7077474757
+  },
+  {
+    "country": "Slovakia",
+    "mcdonalds": 30,
+    "population": 5457013,
+    "people_per_outlet": 181900.4333,
+    "mcds_per_1000_people": 0.05497513017
+  },
+  {
+    "country": "Slovenia",
+    "mcdonalds": 20,
+    "population": 2078654,
+    "people_per_outlet": 103932.7,
+    "mcds_per_1000_people": 0.09621610908
+  },
+  {
+    "country": "South Africa",
+    "mcdonalds": 225,
+    "population": 58558270,
+    "people_per_outlet": 260258.9778,
+    "mcds_per_1000_people": 0.03842326626
+  },
+  {
+    "country": "South Korea",
+    "mcdonalds": 447,
+    "population": 51225308,
+    "people_per_outlet": 114598.0045,
+    "mcds_per_1000_people": 0.08726155439
+  },
+  {
+    "country": "Spain",
+    "mcdonalds": 509,
+    "population": 46736776,
+    "people_per_outlet": 91820.778,
+    "mcds_per_1000_people": 0.1089078117
+  },
+  {
+    "country": "Sri Lanka",
+    "mcdonalds": 7,
+    "population": 21323733,
+    "people_per_outlet": 3046247.571,
+    "mcds_per_1000_people": 0.003282727279
+  },
+  {
+    "country": "Suriname",
+    "mcdonalds": 2,
+    "population": 581372,
+    "people_per_outlet": 290686,
+    "mcds_per_1000_people": 0.03440138156
+  },
+  {
+    "country": "Sweden",
+    "mcdonalds": 225,
+    "population": 10036379,
+    "people_per_outlet": 44606.12889,
+    "mcds_per_1000_people": 0.2241844394
+  },
+  {
+    "country": "Switzerland",
+    "mcdonalds": 167,
+    "population": 8591365,
+    "people_per_outlet": 51445.2994,
+    "mcds_per_1000_people": 0.1943812188
+  },
+  {
+    "country": "Taiwan",
+    "mcdonalds": 413,
+    "population": 23773876,
+    "people_per_outlet": 57563.86441,
+    "mcds_per_1000_people": 0.1737200951
+  },
+  {
+    "country": "Thailand",
+    "mcdonalds": 240,
+    "population": 69037513,
+    "people_per_outlet": 287656.3042,
+    "mcds_per_1000_people": 0.03476370883
+  },
+  {
+    "country": "Trinidad and Tobago",
+    "mcdonalds": 6,
+    "population": 1394973,
+    "people_per_outlet": 232495.5,
+    "mcds_per_1000_people": 0.04301158517
+  },
+  {
+    "country": "Turkey",
+    "mcdonalds": 255,
+    "population": 83429615,
+    "people_per_outlet": 327174.9608,
+    "mcds_per_1000_people": 0.03056468617
+  },
+  {
+    "country": "U.S. Virgin Islands",
+    "mcdonalds": 6,
+    "population": 104578,
+    "people_per_outlet": 17429.66667,
+    "mcds_per_1000_people": 0.5737344375
+  },
+  {
+    "country": "Ukraine",
+    "mcdonalds": 80,
+    "population": 43993638,
+    "people_per_outlet": 549920.475,
+    "mcds_per_1000_people": 0.01818444749
+  },
+  {
+    "country": "United Arab Emirates",
+    "mcdonalds": 165,
+    "population": 9770529,
+    "people_per_outlet": 59215.32727,
+    "mcds_per_1000_people": 0.168875196
+  },
+  {
+    "country": "United Kingdom",
+    "mcdonalds": 1274,
+    "population": 67530172,
+    "people_per_outlet": 53006.41444,
+    "mcds_per_1000_people": 0.1886564127
+  },
+  {
+    "country": "United States",
+    "mcdonalds": 14146,
+    "population": 329064917,
+    "people_per_outlet": 23262.04701,
+    "mcds_per_1000_people": 0.4298847817
+  },
+  {
+    "country": "Uruguay",
+    "mcdonalds": 21,
+    "population": 3461734,
+    "people_per_outlet": 164844.4762,
+    "mcds_per_1000_people": 0.06066323987
+  },
+  {
+    "country": "Venezuela",
+    "mcdonalds": 133,
+    "population": 28515829,
+    "people_per_outlet": 214404.7293,
+    "mcds_per_1000_people": 0.04664076222
+  },
+  {
+    "country": "Vietnam",
+    "mcdonalds": 17,
+    "population": 96428106,
+    "people_per_outlet": 5672241.529,
+    "mcds_per_1000_people": 0.001762971472
+  }
+ ]
