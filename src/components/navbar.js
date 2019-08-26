@@ -30,8 +30,8 @@ function Navbar() {
       <Link to='/blog' className="navbar-item">
         Blog
       </Link>
-      <Link to='/projects' className="navbar-item">
-        Projects
+      <Link to='/clients' className="navbar-item">
+        Clients
       </Link>
 
       <Link to='/work' className="navbar-item">

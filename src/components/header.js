@@ -52,6 +52,12 @@ export default () => (
 
                     </div>
 
+
+                    {/* <div>
+                      <p className="subtitle">Just for fun</p>
+                      <Link to="/mcdonalds-per-capita">McDonalds outlets per capita by country</Link>
+                    </div> */}
+
                   </div>
                          
 

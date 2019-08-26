@@ -61,8 +61,8 @@ export default () => (
                     <div className="columns is-centered">
                         <div className="column is-6 marginHeaders">
                             <br />
-                            <h1 className="title is-1 has-text-weight-light is-size-4-mobile">Projects</h1>
-                            <h2 className="subtitle is-size-3 has-text-weight-light is-size-5-mobile">A few of the projects I worked on over the last few months</h2>
+                            <h1 className="title is-1 has-text-weight-light is-size-4-mobile">Clients</h1>
+                            <h2 className="subtitle is-size-3 has-text-weight-light is-size-5-mobile">Some of my clients I worked with the last few months</h2>
 
                             <Link className="is-size-6 has-text-weight-light has-text-black" to="/">← Back home</Link>
                             <hr />
