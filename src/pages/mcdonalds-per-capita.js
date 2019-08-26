@@ -63,7 +63,7 @@ const maccas = data.allMaccasJson.nodes;
 
     <thead>
     <tr>
-        <th></th>
+        <th>🍔</th>
       <th>Country</th>
       <th>Number of McDonalds restaurants</th>
       <th>McDonalds outlets per 1000 people</th>
@@ -77,7 +77,7 @@ const maccas = data.allMaccasJson.nodes;
 
 
 <tr>
-<td><Link to={mac.id}>Info 🍔</Link></td>
+<td><Link to={mac.id}>Chart</Link></td>
 <td className="has-text-weight-bold">{mac.country}</td>
 <td><NumericLabel>{mac.mcdonalds}</NumericLabel></td>
 <td><progress class="progress is-danger" value={mac.mcds_per_1000_people} max="1">{mac.mcds_per_1000_people}</progress>
