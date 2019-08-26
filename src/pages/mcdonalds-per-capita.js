@@ -66,7 +66,7 @@ const maccas = data.allMaccasJson.nodes;
         <th>🍔</th>
       <th>Country</th>
       <th>Number of McDonalds restaurants</th>
-      <th>McDonalds outlets per 1000 people</th>
+      <th>McDonalds outlets per 10,000 people</th>
 
     </tr>
   </thead>

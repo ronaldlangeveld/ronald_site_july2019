@@ -40,7 +40,7 @@ return (
             <h1 className="title is-3 has-text-weight-light is-size-4-mobile">McDonalds - {McData.country}</h1>
              <p>Population: <NumericLabel>{McData.population}</NumericLabel> </p>
              <p>McDonalds Outlets: <NumericLabel>{McData.mcdonalds}</NumericLabel> </p>
-             <p>Outlets per 1000 people: <NumericLabel>{McData.mcds_per_1000_people}</NumericLabel> </p>
+             <p>Outlets per 10,000 people: <NumericLabel>{McData.mcds_per_1000_people}</NumericLabel> </p>
              <p>Number of people per outlet: <NumericLabel>{McData.people_per_outlet}</NumericLabel> </p>
              <br />
              <Link className="is-size-6 has-text-weight-light has-text-black" to="/mcdonalds-per-capita">← Back to McDonald's Index</Link>
