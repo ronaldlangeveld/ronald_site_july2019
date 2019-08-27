@@ -48,9 +48,14 @@ export default function Template({
 
   useEffect(() => {
 
-    const price = parseInt(McData.bigmac_price_avg);
-    const dev = 50/price;
+    const price = McData.bigmac_price_avg;
+    console.log(price);
+    const money = 50.00;
+    console.log(money);
+    const dev = parseFloat(money) / parseFloat(price);
+    console.log(dev)
     const numburgers = Math.floor(dev)
+
 
     setBurgers(numburgers)
   }, [McData])
