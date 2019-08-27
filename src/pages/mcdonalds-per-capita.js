@@ -8,11 +8,11 @@ import NumericLabel from 'react-pretty-numbers';
 const McDonalds = () => {
     const data = useStaticQuery(graphql`
     query MyQuery {
-        allMaccasJson(sort: {fields: mcds_per_1000_people, order: DESC}) {
+        allMaccasJson(sort: {fields: mcds_per_10000_people, order: DESC}) {
           nodes {
             id
             country
-            mcds_per_1000_people
+            mcds_per_10000_people
             population
             people_per_outlet
             mcdonalds
@@ -77,11 +77,11 @@ const maccas = data.allMaccasJson.nodes;
 
 
 <tr key={mac.id}>
-<td><Link to={`/mcdonalds/${mac.slug}`}>Chart</Link></td>
+<td><Link className="button is-warning" to={`/mcdonalds/${mac.slug}`}>Chart</Link></td>
 <td className="has-text-weight-bold">{mac.country}</td>
 <td><NumericLabel>{mac.mcdonalds}</NumericLabel></td>
-<td><progress class="progress is-danger" value={mac.mcds_per_1000_people} max="1">{mac.mcds_per_1000_people}</progress>
-<NumericLabel>{mac.mcds_per_1000_people}</NumericLabel>
+<td><progress class="progress is-danger" value={mac.mcds_per_10000_people} max="1">{mac.mcds_per_10000_people}</progress>
+<NumericLabel>{mac.mcds_per_10000_people}</NumericLabel>
 </td>
 <td>
 </td>
