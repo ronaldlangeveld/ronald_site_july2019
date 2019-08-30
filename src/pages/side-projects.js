@@ -38,7 +38,7 @@ const Projects = () => (
 
                 
                     <li><Link to="/mcdonalds-per-capita">🍔 McDonalds outlets per capita by country</Link></li>
-                <li><a href="https://www.notifbar.com">📝 Notifbar</a></li>
+                <li><a href="https://www.notifbar.co">📝 Notifbar</a></li>
        
 
                 </div>
