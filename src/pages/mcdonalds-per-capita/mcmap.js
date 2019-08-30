@@ -1,13 +1,13 @@
 import React, {useEffect, useState} from "react"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import { Link, useStaticQuery } from "gatsby"
+import Layout from "../../components/layout";
+import SEO from "../../components/seo";
+import { Link, useStaticQuery } from "gatsby";
 import NumericLabel from 'react-pretty-numbers';
 
 
 const McDonalds = () => {
     const data = useStaticQuery(graphql`
-    query MyQuery {
+    query MyQuery2 {
         allMaccasJson(sort: {fields: mcds_per_10000_people, order: DESC}) {
           nodes {
             id
@@ -42,7 +42,7 @@ const maccas = data.allMaccasJson.nodes;
                     <div className="columns is-centered">
                         <div className="column marginHeaders">
                             <br />
-                            <h1 className="title is-1 has-text-weight-light is-size-4-mobile">Number of McDonalds outlets per capita by country</h1>
+                            <h1 className="title is-1 has-text-weight-light is-size-4-mobile">Number of McDonalds outlets per capita by country | Map</h1>
                             {/* <h2 className="subtitle is-size-3 has-text-weight-light is-size-5-mobile">Over the last 3 years I've helped build websites for businesses across many different industries.</h2> */}
 
                             <Link className="is-size-6 has-text-weight-light has-text-black" to="/">← Back home</Link>
@@ -59,43 +59,6 @@ const maccas = data.allMaccasJson.nodes;
     <div className="container">
 
 
-    <table className="table">
-
-    <thead>
-    <tr>
-        <th>🍔</th>
-      <th>Country</th>
-      <th>Number of McDonalds restaurants</th>
-      <th>McDonalds outlets per 10,000 people</th>
-
-    </tr>
-  </thead>
-
-        <tbody>
-
-        {data.allMaccasJson.nodes.map(mac => (
-
-
-<tr key={mac.id}>
-<td><Link className="button is-warning" to={`/mcdonalds/${mac.slug}`}>Chart</Link></td>
-<td className="has-text-weight-bold">{mac.country}</td>
-<td><NumericLabel>{mac.mcdonalds}</NumericLabel></td>
-<td><progress class="progress is-danger" value={mac.mcds_per_10000_people} max="1">{mac.mcds_per_10000_people}</progress>
-<NumericLabel>{mac.mcds_per_10000_people}</NumericLabel>
-</td>
-<td>
-</td>
-</tr>
-
-
-    
-))}
-
-        </tbody>
-
-
-
-    </table>
 
 
     </div>

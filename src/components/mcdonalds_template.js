@@ -33,13 +33,9 @@ export default function Template({
 
   const dollars = () => {
 
-    console.log(McData.bigmac_price_avg)
 
-    const price = parseInt(McData.bigmac_price_avg);
-    const dev = 50/price;
-    const numburgers = Math.floor(dev)
 
-    const burger = "🍔".repeat(numburgers)
+    const burger = "🍔".repeat(burgerNumbers)
 
 
     return burger
