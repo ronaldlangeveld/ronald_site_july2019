@@ -2,7 +2,7 @@
   from = "/1ef02d8d-1889-5a4b-b42e-e9c85a701d94"
   to = "/mcdonalds/united-states"
   status = 200
-
+[[redirects]]
   from = "/mcdonalds"
   to = "/mcdonalds-per-capita"
   status = 200
