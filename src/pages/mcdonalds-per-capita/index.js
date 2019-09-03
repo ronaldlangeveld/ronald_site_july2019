@@ -59,7 +59,7 @@ const maccas = data.allMaccasJson.nodes;
     <div className="container">
 
 
-    <table className="table">
+    <table className="table is-fullwidth">
 
     <thead>
     <tr>
