@@ -6,6 +6,7 @@ import 'bulma/css/bulma.min.css'
 import Layout from './layout'
 import BackgroundImage from 'gatsby-background-image'
 import NumericLabel from 'react-pretty-numbers';
+import RavePaymentModal from 'react-ravepayment'
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -13,6 +14,13 @@ export default function Template({
 
   const { allMaccasJson } = data
   const { edges } = allMaccasJson
+
+  //Live Key
+  const pubkey = "FLWPUBK-127f14902b1886e5e46c529fd493cc22-X" 
+
+  //Dev Key
+  // const pubkey = "FLWPUBK_TEST-e4a3713dd014db320e169fc2ee2acc51-X"
+
 
   // console.log(data)
 
@@ -56,6 +64,43 @@ export default function Template({
     setBurgers(numburgers)
   }, [McData])
 
+
+  const [email, setEmail] = useState("")
+  const [payBTN, setPayBTN] = useState(false)
+
+  const updateEmail = (e) => {
+
+    setEmail(e.target.value)
+
+    if (email.length > 1)
+    setPayBTN(true)
+
+  }
+
+ const callback = (response) => {
+    console.log(response);
+    alert("Thank you for your support!")
+
+  }
+
+ const close = () => {
+    console.log("Payment closed");
+  }
+
+ const getReference = () => {
+    let text = "";
+    let possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-.=";
+
+    for( let i=0; i < 10; i++ )
+      text += possible.charAt(Math.floor(Math.random() * possible.length));
+
+  return text;
+  }
+
+
+
+
+
   return (
     <Layout>
 
@@ -67,6 +112,7 @@ export default function Template({
 
               <div className="column is-7">
                 <h1 className="title is-2 has-text-weight-light is-size-4-mobile">McDonalds - {McData.country}</h1>
+   
 
                   <div className="box">
                 <div className="is-size-5">
@@ -75,12 +121,47 @@ export default function Template({
                 <p><strong>Outlets per 10,000 people:</strong> <NumericLabel>{McData.mcds_per_10000_people}</NumericLabel> </p>
                 <p><strong>Number of people per outlet:</strong> <NumericLabel>{McData.people_per_outlet}</NumericLabel> </p>
                 <p><strong>Big Mac Price*:</strong> <NumericLabel params={{currency: true, commafy:true, shortFormat: false, justification: 'L'}}>{McData.bigmac_price_avg}</NumericLabel> </p>
+
+
                 </div>
     <div className="has-text-right">
     <Link className="is-size-6 button is-warning" to="/mcdonalds-per-capita">See more countries</Link>
 
     </div>
     <p className="help">* Based on the information I could find for a Big Mac burger ala carte. <br />If know a more accuracy price, please contact me.</p>
+
+    <br />
+    {/* <button className="button is-fullwidth is-danger is-size-5">Buy me a Big Mac 🍔</button> */}
+
+    <div class="field">
+  <label class="label">Buy me a Big Mac 🍔</label>
+  <div class="control">
+  <input onChange={updateEmail} className="input" type="email" placeholder="ronald@mcdonald.com" value={email} />
+  </div>
+</div>
+
+{payBTN ?
+
+
+  <RavePaymentModal
+  text="Buy me a Big Mac 🍔"
+  class="payButton button is-fullwidth is-danger is-size-5"
+  reference={getReference()}
+  currency="USD"
+  email={email}
+  amount={McData.bigmac_price_avg}
+  ravePubKey={pubkey}
+  callback={callback}
+  close={close}
+isProduction={true}
+tag="button" 
+/>
+
+:
+
+<>
+</>
+}
 
                   </div>
     
