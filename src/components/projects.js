@@ -90,10 +90,10 @@ function Projects() {
               </div>
               <div className="column is-6">
 
-     
-              <a href="https://www.fiixsoftware.co.za" target="_blank"><p className="title has-text-white">Fiix Software - South Africa</p></a>
 
-<br />
+                <a href="https://www.fiixsoftware.co.za" target="_blank"><p className="title has-text-white">Fiix Software - South Africa</p></a>
+
+                <br />
 
                 <BackgroundImage className="responsiveImgClient" fluid={data.fiix.childImageSharp.fluid} />
                 <br />
@@ -102,10 +102,10 @@ function Projects() {
 
               <div className="column is-6">
 
-               
-        <a><p className="title has-text-white">Analytical Dashboard</p></a>
 
-<br />
+                <a><p className="title has-text-white">Analytical Dashboard</p></a>
+
+                <br />
 
 
                 <BackgroundImage className="responsiveImgClient" fluid={data.qq.childImageSharp.fluid} />
@@ -119,10 +119,10 @@ function Projects() {
 
               <div className="column is-6">
 
-               
-        <a href="https://www.rhumroom.com" target="_blank"><p className="title has-text-white">Rhum Room</p></a>
 
-<br />
+                <a href="https://www.rhumroom.com" target="_blank"><p className="title has-text-white">Rhum Room</p></a>
+
+                <br />
 
 
                 <BackgroundImage className="responsiveImgClient" fluid={data.rhum.childImageSharp.fluid} />

@@ -61,12 +61,15 @@ return (
 <BackgroundImage className="responsiveBg" fluid={data.bgImg.childImageSharp.fluid}>
 
 <Header />
-
-<Projects id="clients" />
-
+<div data-aos="fade-right" data-aos-duration="1000">
+<Projects />
+</div>
+<div data-aos="fade-right" data-aos-duration="1000">
 <SideProjects />
-
+</div>
+<div data-aos="fade-right" data-aos-duration="1000">
 <WorkWithMe />
+</div>
 
 
 
