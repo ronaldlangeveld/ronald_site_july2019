@@ -22,16 +22,16 @@ function SideProjects() {
     <>
 
 <div className="sticky">
- {/* <Img className="profilepic" fluid={data.ronald.childImageSharp.fluid} /> */}
+ <a href="https://www.twitter.com/ronaldlangeveld" target="_blank"><Img className="profilepic" fluid={data.ronald.childImageSharp.fluid} /></a>
 <div className="inner has-text-weight-light is-size-5 ">
 
 
-<p><Link activeClassName="activesticky" to="/blog" className="has-text-black">Blog</Link></p>
-<p className="top-space"><Link activeClassName="activesticky" to="/#clients" className="has-text-black">Clients</Link></p>
-<p className="top-space"><Link activeClassName="activesticky" to="/#sides" className="has-text-black">Side Projects</Link></p>
-<p className="top-space"><Link activeClassName="activesticky" to="#work" className="has-text-black">Work with me</Link></p>
-<p className="top-space"><a href="https://nomadlist.com/@ronald" target="_blank" className="has-text-black">Whereabouts</a></p>
-
+<p><Link activeClassName="activesticky" to="/blog" className="has-text-black menu">Blog</Link></p>
+<p className="top-space"><Link activeClassName="activesticky" to="/#clients" className="has-text-black menu">Clients</Link></p>
+<p className="top-space"><Link activeClassName="activesticky" to="/#sides" className="has-text-black menu">Side Projects</Link></p>
+<p className="top-space"><Link activeClassName="activesticky" to="/#work" className="has-text-black menu">Work with me</Link></p>
+<p className="top-space"><a href="https://nomadlist.com/@ronald" target="_blank" className="has-text-black menu">Whereabouts</a></p>
+<p className="top-space"><a href="https://www.twitter.com/ronaldlangeveld" target="_blank" className="has-text-black menu">Twitter</a></p>
 </div>
 
 </div>

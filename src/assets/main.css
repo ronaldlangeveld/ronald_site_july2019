@@ -261,7 +261,7 @@ section .overlay {
   border-radius: 100%;
   z-index: 9999;
   top: -4em;
-  left: 43px;
+  left: 31px;
 }
 
 
@@ -291,4 +291,27 @@ section .overlay {
 
 .activesticky {
  font: italic bold
+}
+
+
+.menu {
+ 
+  display: inline-block;
+  text-decoration: none;
+
+}
+
+
+.menu::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 1px;
+  background: #363636;
+  transition: width 0.5s;
+}
+
+.menu:hover::after {
+  width: 100%;
+  transition: width .3s;
 }

@@ -52,10 +52,10 @@ axios.post(ChatURL, msg).then(res => {
     const sendingBtn = () => {
       
       if(sending === false){
-        return <button onClick={sendMsg} className="button is-info is-fullwidth">Send &nbsp; <FontAwesomeIcon icon={faPaperPlane} /></button>
+        return <button onClick={sendMsg} className="button is-warning is-fullwidth">Send &nbsp; <FontAwesomeIcon icon={faPaperPlane} /></button>
       }
       else {
-        return <button onClick={sendMsg} className="button is-info is-fullwidth is-loading" disabled>Sending</button>
+        return <button onClick={sendMsg} className="button is-warning is-fullwidth is-loading" disabled>Sending</button>
 
       }
     }
@@ -96,7 +96,7 @@ return <div className="message-body">
 <>
 
 <div className={(props.Form ? '': 'is-hidden') }>
-<article className="message is-info">
+<article className="message is-warning">
   <div className="message-header">
     <p>Let's get in touch</p>
     <button onClick={props.Hide} className="delete" aria-label="delete"></button>

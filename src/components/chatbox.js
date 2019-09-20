@@ -31,14 +31,14 @@ function ChatBox() {
 <div className={(chat ? 'is-hidden': '') }>
 
 
-<article className="message is-info">
+<article className="message is-warning">
   <div className="message-header">
     <p>Hey there! 👋</p>
     <button onClick={hideChatBox} className="delete" aria-label="delete"></button>
   </div>
   <div className="message-body">
     <p>Thank you for visiting. Let's have a chat about your project.</p>
-    <button onClick={clickChat} style={btnMrg} className="button is-info is-size-7">Write a message</button>
+    <button onClick={clickChat} style={btnMrg} className="button is-warning is-size-7">Write a message</button>
     <br />
 
   </div>
