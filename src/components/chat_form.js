@@ -14,7 +14,7 @@ function ChatForm(props) {
     const [sending, setSending] = useState(false)
     const [sendSucc, setSucc] = useState(false)
 
-    const ChatURL = "https://api.ronaldlangeveld.com/sendMsg";
+    const ChatURL = "https://ron-test.unubo.app/sendMsg";
 
     const sendMsg = () => {
 

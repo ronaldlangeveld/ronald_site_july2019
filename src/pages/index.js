@@ -12,6 +12,7 @@ import SideProjects from '../components/side_projects';
 import WorkWithMe from '../components/workwithme';
 import Img from 'gatsby-image';
 import StickyNav from '../components/stickynav';
+import Open from '../components/open';
 
 
 function Index() {
@@ -70,6 +71,8 @@ return (
 <div data-aos="fade-right" data-aos-duration="1000">
 <WorkWithMe />
 </div>
+
+<Open />
 
 
 
