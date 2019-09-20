@@ -8,17 +8,43 @@ import NumericLabel from 'react-pretty-numbers';
 function Open () {
 
 
-    const analytics = 'https://ron-test.unubo.app/visits'
+    const analytics = 'https://ron-test.unubo.app/visits';
+    const nomad = 'https://ron-test.unubo.app/nomad';
 
     const [views, setviews] = useState("00")
+    const[location, setLocation] = useState("Locating....") || "Whereabouts Unknown"
 
     useEffect(() => {
 
         try {
 
             axios.get(analytics).then(res => {
-                console.log(res.data)
+         
                 setviews(res.data.visits)
+      
+  
+           
+                // response.sendStatus(200);
+      
+                
+              }).catch(err => {
+                console.log(err)
+    
+           
+              })
+              
+      
+        } catch (error) {
+           console.log(error)
+      
+      
+        }
+
+        try {
+
+            axios.get(nomad).then(res => {
+
+                setLocation(res.data.location)
       
   
            
@@ -50,8 +76,21 @@ function Open () {
   <div className="hero-body">
     <div className="container">
     <div className="has-text-centered">
-      <p className="heading has-text-white">Website Visits</p>
+    <nav className="level">
+  <div className="level-item has-text-centered">
+    <div>
+    <p className="heading has-text-white">Website Visits (Last 30 days)</p>
       <p className="title has-text-white"><NumericLabel>{views}</NumericLabel></p>
+    </div>
+  </div>
+  <div className="level-item has-text-centered">
+    <div>
+    <p className="heading has-text-white">Current Location</p>
+      <p className="title has-text-white"><a className="has-text-white" href="https://www.nomadlist.com/@ronald" target="_blank">{location}</a></p>
+    </div>
+  </div>
+</nav>
+
     </div>
 
 
