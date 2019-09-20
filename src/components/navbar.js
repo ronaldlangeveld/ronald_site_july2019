@@ -14,7 +14,12 @@ function Navbar() {
   return (
 <>
 
-<nav className="navbar" role="navigation" aria-label="main navigation">
+<div className="container is-hidden-desktop">
+<div className="columns is-centered">
+
+  <div className="column is-6">
+
+  <nav className="navbar is-warning" role="navigation" aria-label="main navigation">
   <div className="navbar-brand">
 
 
@@ -26,19 +31,19 @@ function Navbar() {
   </div>
 
   <div id="navbarBasicExample" className={"navbar-menu " + (burger ? 'is-active' : '')}>
-    <div className="navbar-start">
+    <div className="navbar-start is-size-6">
       <Link to='/blog' className="navbar-item">
         Blog
       </Link>
-      <Link to='/clients' className="navbar-item">
+      <Link to="/#clients" className="navbar-item">
         Clients
       </Link>
 
-      <Link to='/side-projects' className="navbar-item">
+      <Link to="/#sides" className="navbar-item">
         Side Projects
       </Link>
 
-      <Link to='/work' className="navbar-item">
+      <Link to="/#work"  className="navbar-item">
         Work with me
       </Link>
       <a href="https://nomadlist.com/@ronald" target="_blank" className="navbar-item">
@@ -52,7 +57,15 @@ function Navbar() {
   </div>
 </nav>
 
+  </div>
+
+</div>
+</div>
+
 </>
   );
 }
+
+
+
 export default Navbar;

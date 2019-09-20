@@ -16,7 +16,7 @@ const PostLink = ({ post }) => (
           </BackgroundImage></Link>
 
 <p className="help">{post.frontmatter.date}</p>
-<p> <Link to={post.frontmatter.path} className="title is-5 is-size-6-mobile">
+<p> <Link to={post.frontmatter.path} className="title is-4 is-size-6-mobile has-text-warning">
     {post.frontmatter.title} →
     </Link></p>
 

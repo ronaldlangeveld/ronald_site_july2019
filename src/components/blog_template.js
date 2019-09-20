@@ -18,42 +18,41 @@ export default function Template({
                            fluid={frontmatter.featuredImage.childImageSharp.sizes}
           >
           </BackgroundImage>
+          <SEO title={frontmatter.title} />
+          <section className="hero is-dark">
+  <div className="hero-body">
+    <div className="container">
+    <div className="columns is-centered">
+      <div className="column is-8">
+      <h1 className="title is-2 is-size-4-mobile has-text-warning">{frontmatter.title}</h1>
+              <h2 className="subtitle is-6">{frontmatter.date}</h2>
+              <Link className="is-size-6 has-text-white" to="/blog">← Back to article list</Link>
+
+      </div>
+    </div>
+    </div>
+  </div>
+</section>
+
 <section className="hero">
-      <SEO title={frontmatter.title} />
+
       <div className="hero-body">
         <div className="container">
           <div className="columns is-centered">
 
-            <div className="column is-7">
-              <h1 className="title is-3 has-text-weight-light is-size-4-mobile">{frontmatter.title}</h1>
-              <h2 className="has-text-weight-light subtitle is-6">{frontmatter.date}</h2>
-              <Link className="is-size-6 has-text-weight-light has-text-black" to="/blog">← Back to article list</Link>
-              <hr />
+            <div className="column is-8">
+             
               <div
-                className="content is-size-6 is-size-6-mobile"
+                className="content is-size-5 is-size-6-mobile"
                 dangerouslySetInnerHTML={{ __html: html }}
               />
 
               <br />
-              <Link className="is-size-7 has-text-weight-light has-text-black" to="/blog">← Back to article list</Link>
+              <Link className="is-size-6 has-text-black" to="/blog">← Back to article list</Link>
 
-              <hr />
 
-              <div>
-                <div className="has-text-centered">
-                  <Img style={ProfilePic} fluid={data.profilepic.childImageSharp.fluid} />
-                </div>
-                <br />
-                <h1 className="has-text-centered title has-text-weight-normal is-5">Written by Ronald</h1>
-                <p className="has-text-weight-light is-size-6 has-text-centered">Freelance Full-Stack Software Developer working on development projects for local and international clients. 
-                Originally from South Africa and travels around Asia whilst working remotely. 
-                <hr />
-                Need Web Development or Tech Consultation to kick off for your next big thing? I'm available for Hire.
-                <br />
-                <a href="https://twitter.com/ronaldlangeveld" target="_blank">Twitter</a> &nbsp; <a href="mailto:hi@ronaldlangeveld.com">Email</a>
-                
-                </p>
-              </div>
+
+
 
             </div>
           </div>
@@ -61,6 +60,32 @@ export default function Template({
       </div>
 
     </section>
+
+    <section className="hero is-dark">
+  <div className="hero-body">
+    <div className="container">
+    <div className="columns is-centered">
+      <div className="column is-8">
+      <div>
+                <div className="has-text-centered">
+                  <Img style={ProfilePic} fluid={data.profilepic.childImageSharp.fluid} />
+                </div>
+                <br />
+                <h1 className="has-text-centered title is-5">Written by Ronald</h1>
+                <p className="is-size-6 has-text-centered">Freelance Full-Stack Software Developer working on development projects for local and international clients. 
+                Originally from South Africa and travels around Asia whilst working remotely. 
+                <hr />
+                Need Web Development or Tech Consultation to kick off for your next big thing? I'm available for Hire.
+                <br />
+                <a className="has-text-white" href="https://twitter.com/ronaldlangeveld" target="_blank">Twitter</a> &nbsp; <a className="has-text-white" href="mailto:hi@ronaldlangeveld.com">Email</a>
+                
+                </p>
+              </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</section>
 </Layout>
     // <div className="blog-post-container">
     //   <div className="blog-post">

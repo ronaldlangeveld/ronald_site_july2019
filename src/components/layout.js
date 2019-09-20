@@ -54,9 +54,7 @@ useEffect(() => {
     <>
 
         <main>{children}</main>
-       <div >
-       <ChatBox />
-       </div>
+
      
     </>
   )

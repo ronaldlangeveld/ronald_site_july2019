@@ -1,93 +1,54 @@
 import React, { Component, useState } from 'react'
 import Img from 'gatsby-image';
-import { StaticQuery, graphql } from "gatsby"
+import { StaticQuery, graphql, useStaticQuery } from "gatsby"
 import { Link } from "gatsby";
-import Navbar from './navbar';
+import Intro from './intro';
 
-export default () => (
 
-  <StaticQuery
-    query={graphql`
-  query {
-    main: file(relativePath: {eq: "bigimg2.jpg"}){
+function Header() {
+
+  const data = useStaticQuery(graphql `{
+    ronald: file(relativePath: {eq: "ron3.jpg"}){
       childImageSharp{
-        fluid(quality: 100){
+        fluid(maxWidth: 800, quality: 50){
           ...GatsbyImageSharpFluid
         }
       }
     }
-}
-`}
-    render={data => (
-      <>
+  }`)
 
-        <section className="hero">
-          <div className="hero-header">
-            <div className="container">
-              <div className="columns is-centered">
+return (
+<>
+<div className="hero is-medium">
+  <div className="hero-body">
+    <div className="container">
+    <Img className="profilepic2" fluid={data.ronald.childImageSharp.fluid} />
 
-                <div className="column is-6">
-                  <Navbar />
-                </div>
-
-              </div>
-            </div>
-          </div>
-          <div className="hero-body">
-            <div className="container">
-              <div className="columns is-centered">
-
-                <div className="column is-6">
-
-                  <div>
-
-                    <h1 className="title is-1 has-text-weight-light is-size-3-mobile">Hi, I'm Ronald</h1>
-
-                    <div className="content is-large has-text-weight-light is-size-5-mobile">
-                      <p>I’m a freelance software engineer, with 3 years experience using <strong>Python 3</strong> and the <strong>Django web framework</strong>. I keep my applications running fast and automate tasks by deploying them onto <strong>Linux</strong> servers.</p>
-                      <p>More recently I’m developing web applications with <strong>NodeJS</strong> and <strong>ReactJS</strong> as well as <strong>React Native</strong> to build iOS and Android apps.</p>
-                      <p><strong>Need Web Development</strong> or <strong>Tech Consultation</strong> to kick off for your next big thing?
+      <h1 className="title content-shadow is-1 has-text-warning">
+       Hello, I'm Ronald
+      </h1>
+      <div className="content content-shadow is-large has-text-white is-size-5-mobile">
+                      <p>I’m a freelance software engineer, with 3 years experience using <strong className="has-text-white">Python 3</strong> and the <strong className="has-text-white">Django web framework</strong>. I keep my applications running fast and automate tasks by deploying them onto <strong className="has-text-white">Linux</strong> servers.</p>
+                      <p>More recently I’m developing web applications with <strong className="has-text-white">Flask</strong>, <strong className="has-text-white">NodeJS</strong> and <strong className="has-text-white">ReactJS</strong> as well as <strong className="has-text-white">React Native</strong> to build iOS and Android apps.</p>
+                      <p><strong className="has-text-white">Need Web Development</strong> or <strong className="has-text-white">Tech Consultation</strong> to kick off for your next big thing?
                     </p>
+                </div>
                 <div>
-                <a className="button is-light is-outlined is-dark is-size-4 is-size-6-mobile" href="https://ronaldlangeveld.typeform.com/to/jd8iq9" target="_blank">Let's get started</a>
+                <a className="button is-light is-outlined is-light is-size-4 is-size-6-mobile" href="https://ronaldlangeveld.typeform.com/to/jd8iq9" target="_blank">Let's get started</a>
                 </div>
                 <br />
-                <p><Link to="/work">Or let's get in touch via email</Link></p>
-
-                    </div>
-
-
-                    {/* <div>
-                      <p className="subtitle">Just for fun</p>
-                      <Link to="/mcdonalds-per-capita">McDonalds outlets per capita by country</Link>
-                    </div> */}
-
-                  </div>
+                <p><a className=" content-shadow has-text-white is-size-5" href="mailto:hi@ronaldlangeveld.com">Or let's get in touch via email</a></p>
+    
+    </div>
+  </div>
+</div>
 
 
 
-                </div>
-
-
-              </div>
-            </div>
-          </div>
-
-
-        </section>
-
-      </>
-    )} />)
-
-const ProfilePic = {
-  borderRadius: "100%",
-  width: "120px",
-  height: "120px",
-  display: "block",
-  marginLeft: "auto",
-  marginRight: "auto"
+</>
+);
 }
 
-const littleRight = {
-  marginLeft: "15px"
-}
+
+
+export default Header;

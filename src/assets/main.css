@@ -11,10 +11,11 @@ body {
 
 
 .responsiveBg {
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    
     
 }
 
@@ -142,4 +143,152 @@ section .overlay {
 .delayBox {
   animation-delay: 2s;
     transition: .5s ease-in-out;
+}
+
+
+.navbar-item.center {
+  flex-grow: 1;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+.sticky {
+  height: 100vh;
+  left: 0;
+  padding-top: 12em;
+  /* padding-left: 0em; */
+  width: 100%;
+  text-align: left;
+  top: 0;
+  background-color: #ffdd59;
+  position: fixed;
+  
+
+}
+
+
+
+.sticky>.inner {
+  margin-left: 1em;
+  text-transform: uppercase;
+  margin-right: 2em;
+}
+
+@media only screen and (max-width: 768px) {
+  .sticky {
+   display: none;
+  }
+}
+
+
+.mainIntro {
+  margin-left: 35%;
+  max-width: 100%;
+  width: 75%;
+}
+
+.top-space {
+  margin-top: 10px;
+}
+
+.content-shadow {
+  text-shadow: 1px 1px 0 rgba(0,0,0,0.35), 1px 1px 5px rgba(0,0,0,0.5);
+}
+
+
+.responsiveImgClient {
+  height: 20rem ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  
+}
+
+.content blockquote {
+  background-color: #352f37;
+  border-left: 5px solid #3a354a;
+  padding: 1.25em 1.5em;
+}
+
+.headshot {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  float: left;
+  margin-left: 1em;
+  z-index: 9999;
+  margin-top: -18px;
+}
+
+
+.responsiveImgProject {
+  height: 25rem ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+
+.center-box {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.overlayBG {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+     background-color:#10010f;
+  opacity: 0.5;
+  height: 100%;
+}
+
+.overlayBG:hover {
+  background-color: #424242;
+}
+
+.profilepic {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  z-index: 9999;
+  top: -4em;
+  left: 43px;
+}
+
+
+.profilepic2 {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  z-index: 9999;
+  top: -1em;
+  left: -99px;
+  position: sticky;
+
+}
+
+@media only screen and (max-width: 768px) {
+  .profilepic2 {
+    left: 1em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .profilepic {
+   display: none;
+  }
+}
+
+
+.activesticky {
+ font: italic bold
 }
