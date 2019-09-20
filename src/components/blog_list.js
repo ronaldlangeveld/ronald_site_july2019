@@ -4,11 +4,8 @@ import BackgroundImage from 'gatsby-background-image'
 
 const PostLink = ({ post }) => (
 
+<div data-aos="fade-right" data-aos-duration="100">
 
-
-
-
-<>
 
 
 <Link to={post.frontmatter.path}>
@@ -26,9 +23,7 @@ const PostLink = ({ post }) => (
   <p className="subtitle is-6 is-size-7-mobile">{post.excerpt}</p>
 
 <br />
-
-
-</>
+</div>
  
     
 )
