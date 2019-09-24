@@ -59,7 +59,7 @@ function SideProjects() {
                   <br />
                   <a href="https://stabmag.com/style/the-consequence-of-chasing-slabs-in-northern-europe/" target="_blank"><Img fluid={data.benp.childImageSharp.fluid} className="headshot" /></a>
 
-                  <blockquote><i>"It looks great! Functional and good looking. I’m shocked by how much you know about writing code. You’re like the Mike Stewart of coding."</i>
+                  <blockquote><i>"It looks great! Functional and good looking. I’m shocked by how much you know about writing code."</i>
                     <br />
 
                     <div>
