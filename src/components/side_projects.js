@@ -55,7 +55,7 @@ function SideProjects() {
                 <Img fluid={data.bodyboarding.childImageSharp.fluid} />
                 <br />
 
-                <div className="content has-text-light is-medium">
+                <div className="content has-text-dark is-medium">
                   <br />
                   <a href="https://stabmag.com/style/the-consequence-of-chasing-slabs-in-northern-europe/" target="_blank"><Img fluid={data.benp.childImageSharp.fluid} className="headshot" /></a>
 
