@@ -14,6 +14,7 @@ import 'bulma/css/bulma.css'
 import '../assets/main.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css'
+import Navbar from './navbar';
 
 
 
@@ -52,9 +53,14 @@ useEffect(() => {
 
   return (
     <>
-
-        <main>{children}</main>
+<div className="has-navbar-fixed-top">
+<Navbar />
+<main>{children}</main>
         <ChatBox />
+
+
+</div>
+
      
     </>
   )

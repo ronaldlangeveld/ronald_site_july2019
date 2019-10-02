@@ -269,10 +269,6 @@ section .overlay {
   width: 150px;
   height: 150px;
   border-radius: 100%;
-  z-index: 9999;
-  top: -1em;
-  left: -99px;
-  position: sticky;
 
 }
 

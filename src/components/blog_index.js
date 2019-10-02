@@ -6,7 +6,12 @@ const PostIndex = ({ children }) => {
         <section className="hero is-dark">
             <div className="hero-header">
                 <div className="container">
-                    <div className="columns is-centered">
+
+                </div>
+            </div>
+            <div className="hero-body">
+                <div className="container">
+                <div className="columns is-centered">
                         <div className="column is-12 marginHeaders">
                             <br />
                             <h1 className="title is-1 is-size-4-mobile has-text-warning">Blog</h1>
@@ -16,10 +21,6 @@ const PostIndex = ({ children }) => {
                     
                         </div>
                     </div>
-                </div>
-            </div>
-            <div className="hero-body">
-                <div className="container">
                     <div className="columns is-centered">
                         <div className="column is-12">
                             <div>

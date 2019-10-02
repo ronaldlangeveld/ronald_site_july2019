@@ -48,29 +48,24 @@ return (
 <Layout>
         <SEO title="Full Stack Web Developer and Bootstrapper" image={data.cardImg.childImageSharp.fluid.src} />
 
-        <Navbar />
+  
         <div className="columns is-gapless">
 
 
-<div className="column is-2 is-hidden-touch">
+{/* <div className="column is-2 is-hidden-touch">
 
 <StickyNav />
 
-</div>
+</div> */}
 
-<div className="column is-10">
+<div className="column">
 <BackgroundImage className="responsiveBg" fluid={data.bgImg.childImageSharp.fluid}>
 
 <Header />
-<div data-aos="fade-right" data-aos-duration="1000">
 <Projects />
-</div>
-<div data-aos="fade-right" data-aos-duration="1000">
 <SideProjects />
-</div>
-<div data-aos="fade-right" data-aos-duration="1000">
+
 <WorkWithMe />
-</div>
 
 <Open />
 

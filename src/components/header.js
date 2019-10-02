@@ -22,10 +22,11 @@ return (
 <div className="hero is-fullheight">
   <div className="hero-body">
     <div className="container">
-<div className="is-hidden-desktop">    <Img className="profilepic2" fluid={data.ronald.childImageSharp.fluid} /></div>
+    <div><Img className="profilepic2" fluid={data.ronald.childImageSharp.fluid} /></div>
 
 
       <h1 className="title content-shadow is-1 has-text-warning">
+
        Hello, I'm Ronald
       </h1>
       <div className="content content-shadow is-large has-text-white is-size-5-mobile">
