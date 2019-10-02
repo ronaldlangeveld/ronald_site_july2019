@@ -18,7 +18,7 @@ function Navbar() {
   <nav className="navbar is-warning is-fixed-top" role="navigation" aria-label="main navigation">
   <div className="navbar-brand">
 
-  <Link className="navbar-item has-text-weight-bold is-size-5">Ronald Langeveld</Link>
+  <Link className="navbar-item has-text-weight-bold is-size-4">Ronald Langeveld</Link>
 
     <a role="button" className="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample" onClick={clickBurger}>
       <span aria-hidden="true"></span>
@@ -33,7 +33,7 @@ function Navbar() {
 
     </div>
 
-    <div className="navbar-end is-size-7">
+    <div className="navbar-end is-size-6">
     <Link to='/blog' className="navbar-item">
         Blog
       </Link>

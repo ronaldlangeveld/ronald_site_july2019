@@ -300,7 +300,7 @@ section .overlay {
 
 .menu::after {
   content: "";
-  display: block;
+  /* display: block; */
   width: 0;
   height: 1px;
   background: #363636;
