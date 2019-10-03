@@ -49,7 +49,7 @@ return (
         <SEO title="Full Stack Web Developer and Bootstrapper" image={data.cardImg.childImageSharp.fluid.src} />
 
   
-        <div className="columns is-gapless">
+        <div className="columns is-gapless is-centered">
 
 
 {/* <div className="column is-2 is-hidden-touch">

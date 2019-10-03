@@ -61,7 +61,7 @@ function Projects() {
   return (
     <>
 
-      <div id="clients">
+      <div id="clients" className="container">
 
         <section className="hero has-text-white is-medium">
           <div className="hero-head">

@@ -33,7 +33,7 @@ function SideProjects() {
   return (
     <>
 
-      <div id="sides">
+      <div id="sides" className="container">
       
         <section className="hero has-text-white is-medium">
           <div className="hero-head">

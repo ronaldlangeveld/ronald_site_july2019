@@ -12,7 +12,7 @@ function WorkWithMe() {
   return (
     <>
 
-      <div id="work">
+      <div id="work" className="container">
 
       <section className="hero is-medium">
       <div className="hero-head">
