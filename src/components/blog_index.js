@@ -15,7 +15,7 @@ const PostIndex = ({ children }) => {
                         <div className="column is-12 marginHeaders">
                             <br />
                             <h1 className="title is-1 is-size-4-mobile has-text-warning">Blog</h1>
-                            <h2 className="subtitle is-size-3 is-size-5-mobile">I'm not the most consistent blogger, but I <i>sometimes</i> write about stuff that interest me. </h2>
+                            <h2 className="subtitle is-size-4 is-size-5-mobile">In my free time I write about stuff that interests me, such as Programming, Travelling and Personal Experiences </h2>
 
                             <Link className="is-size-6 has-text-white" to="/">← Back home</Link>
                     
