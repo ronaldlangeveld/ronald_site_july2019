@@ -40,6 +40,14 @@ function Index() {
         }
       }
     }
+    wave: file(relativePath: {eq: "WAVE.jpeg"}){
+      childImageSharp{
+        fluid(maxWidth: 1000, quality: 100){
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+
   }`)
 
 return (
@@ -59,7 +67,7 @@ return (
 </div> */}
 
 <div className="column">
-<BackgroundImage className="responsiveBg" fluid={data.bgImg.childImageSharp.fluid}>
+<BackgroundImage className="responsiveBg" fluid={data.wave.childImageSharp.fluid}>
 
 <Header />
 <Projects />
