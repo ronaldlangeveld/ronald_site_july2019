@@ -20,6 +20,7 @@ export default function Template({
           </BackgroundImage>
           <SEO title={frontmatter.title} />
           <section className="hero is-dark">
+          <div className="background-fixed">
   <div className="hero-body">
     <div className="container">
     <div className="columns is-centered">
@@ -31,6 +32,7 @@ export default function Template({
       </div>
     </div>
     </div>
+  </div>
   </div>
 </section>
 
@@ -62,6 +64,7 @@ export default function Template({
     </section>
 
     <section className="hero is-dark">
+    <div className="background-fixed">
   <div className="hero-body">
     <div className="container">
     <div className="columns is-centered">
@@ -85,12 +88,10 @@ export default function Template({
     </div>
     </div>
   </div>
+  </div>
 </section>
 </Layout>
-    // <div className="blog-post-container">
-    //   <div className="blog-post">
-    // <h1>{frontmatter.title}</h1>
-    // <h2>{frontmatter.date}</h2>
+
 
   )
 }

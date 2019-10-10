@@ -26,28 +26,6 @@ function Index() {
         }
       }
     }
-    bgImg: file(relativePath: {eq: "seoul2.jpeg"}){
-      childImageSharp{
-        fluid(maxWidth: 800, quality: 50){
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-    ronald: file(relativePath: {eq: "ron3.jpg"}){
-      childImageSharp{
-        fluid(maxWidth: 800, quality: 50){
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-    wave: file(relativePath: {eq: "WAVE.jpeg"}){
-      childImageSharp{
-        fluid(maxWidth: 1000, quality: 100){
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
-
   }`)
 
 return (
@@ -57,17 +35,12 @@ return (
         <SEO title="Full Stack Web Developer and Bootstrapper" image={data.cardImg.childImageSharp.fluid.src} />
 
   
-        <div className="columns is-gapless is-centered">
+{/* <BackgroundImage className="responsiveBg" fluid={data.wave.childImageSharp.fluid}> */}
+
+<div className="background-fixed">
 
 
-{/* <div className="column is-2 is-hidden-touch">
 
-<StickyNav />
-
-</div> */}
-
-<div className="column">
-<BackgroundImage className="responsiveBg" fluid={data.wave.childImageSharp.fluid}>
 
 <Header />
 <Projects />
@@ -77,13 +50,9 @@ return (
 
 <Open />
 
-
-
-</BackgroundImage>
 </div>
 
-
-</div>
+{/* </BackgroundImage> */}
 
 
       </Layout>

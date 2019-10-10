@@ -4,6 +4,9 @@ import { Link } from "gatsby"
 const PostIndex = ({ children }) => {
     return (
         <section className="hero is-dark">
+            <div className="background-fixed">
+
+ 
             <div className="hero-header">
                 <div className="container">
 
@@ -46,6 +49,7 @@ const PostIndex = ({ children }) => {
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
         </section>
     );
